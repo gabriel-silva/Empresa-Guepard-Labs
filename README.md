@@ -1,1 +1,1 @@
-# Empresa-Guepard-Labs
+# Guepard Labs

@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	
+}
+.plano-fundo{
+	margin: 0;
+	padding-top: 1px;
+	background-image: url(Imagem/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main{
+	width: auto;
+	position: relative; 
+	min-height: 100%; 
+	top: 0px;
+}
+
+.primeira{
+	background-color: #616161;
+	box-shadow: -1px 2px 0px 2px #4CAF4F;
+	margin-top: -1px;
+}
+
+.segunda{
+	
+	width: 700px;
+	height: 102px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo{
+	float: left;
+	margin: -1px 15px -1px -2px;
+	color: #fff;
+	margin-top: 13px;
+
+}
+
+.logo-baixo, .logo img {
+	width: 100px; 
+	height:75px;
+	padding-top: 2%;
+}	
+
+.barraopcoes {
+	position: relative;
+	font-size: 17px;
+}
+
+#font{
+	font-size: 15px;
+	color: white;
+}
+
+.barratema, .barraopcoes {
+	color: #4CAF50 !important;
+	background-color: #616161 !important;
+}
+
+.menuopcoes{
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 102px;
+	overflow: hidden;
+}
+
+.menuopcoes li a{
+	float: left;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none !important;
+}
+.menuopcoes li a:hover{
+	background-color: #00FFA1;
+}
+
+.barrapadding{
+	padding-top: 44px!important;
+	padding-bottom: 36px!important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.container-informacoes{
+	margin-top: -17px;
+	color: #fff!important;
+	background-color: #616161!important;
+	box-shadow: 0px 0px 0px 4px #4CAF4F;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.quemsomos, .servico, .center, .GuepardLabs{
+	text-align: center;
+}
+
+.row {
+	margin-left: -20px;
+}
+
+#titulo{ 
+	color: #4CAF50;
+}
+
+.bar-gradient{
+	height: 5px;
+	width: 100%;
+	background: #4CAF50;
+}
+
+.page-contents {
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+
+.container-quemsomos {
+	padding-top: 196px;
+	padding-bottom: 50px;
+}
+
+.quemsomos{
+	background:rgba(54, 54, 54, 0.60); 
+	width: 90%; 
+	margin: auto;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.texto-servico{
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+}
+
