@@ -1,0 +1,176 @@
+* { /* pagina sem margin e sem padding*/
+	padding: 0;
+	margin: 0;
+}
+
+.barra-transparente-baixo{
+	margin: 0;
+}
+
+body {	/*padrao da pagina*/
+	
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+}
+.container-box-index{ /*caixa para o menu principal*/
+	background-color: #616161;
+	height: 102px;
+	width: 100%;
+	position: fixed;
+}
+.border-menu-fixed{ /*borda fixa do menu principal*/
+	background-color: #4CAF4F;
+	width: 100%;
+	height: 4px;
+	position: fixed;
+}
+
+.border-menu-index{ /*borda para todas as caixas transparentes*/
+	background-color: #4CAF4F;
+	width: 100%;
+	height: 4px;
+}
+
+.class-logo img{ 
+	float: left;
+	margin: -1px 15px -1px -2px;
+	margin-top: 14px;
+	width: 100px; 
+	height:75px;
+	margin-left: 30%;
+}
+.container-menuopcoes-index {
+	color: #4CAF50 !important;
+	background-color: #616161 !important;
+}
+
+.container-menuopcoes-index{
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 102px;
+	margin-left: 25%;
+	margin-right: 20%;
+}
+
+.container-menuopcoes-index li a{
+	float: left;
+	padding: 2px 15px;
+	text-decoration: none !important;
+	color: inherit;
+	font-size: 17px;
+}
+.container-menuopcoes-index li a:hover{
+	background-color: #00FFA1;
+}
+
+.padding-menuopcoes-index{
+	padding-top: 44px!important;
+	padding-bottom: 36px!important;
+}
+
+.text-center, .class-logo-baixo{
+	text-align: center;
+}
+
+.container-servicos{
+	padding-top: 250px;
+	padding-bottom: 50px;
+}
+
+.box-for-all{ /* caixa preta transparente */
+	background:rgba(54, 54, 54, 0.60); 
+	width: 90%; 
+	margin: auto;
+}
+
+#titulo-all{ /* cor para todos titulos*/ 
+	color: #4CAF50;
+}
+
+.class-imagem-duvida img{
+	border-radius: 50%;
+	height: auto;
+	margin: auto;
+	border: 0px solid #ccc;
+
+}
+.container-duvidas{ /*caixa para duvidas*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.map-guepard{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#googleMap{
+	width:500px;
+	height:300px;
+}
+
+.container-onde-estamos{
+	padding-top: 50px;
+	padding-bottom: 50px;	
+}
+
+.class-logo-baixo img{ /* logo de baixo*/
+	margin-left: -20px;
+	width: 100px; 
+	height:75px;
+	padding-top: 2%;
+}
+
+.container-footer{ /* footer informaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes debaixo */
+	margin-top: -9px;
+	color: #fff!important;
+	background-color: #616161!important;
+	position: relative;
+}
+.container-quemsomos{
+	text-align: center;
+	height: 670px;
+	width: 90%;
+}
+
+.tamanho-fotos-quem-somos{
+	width: 200px;
+	height: 200px;
+}
+
+.box-quem-somos li{
+	float: left;
+	display: block;
+	padding: 40px 40px;
+}
+
+.box-figure{
+	text-align: center;
+	float: left;
+	display: block;
+	padding: 8px 16px;
+	width: 200px;
+	height: 200px;
+}
+
+#display, #display2, #display3, 
+#display4, #display5, #display6, 
+#display7, #display8, #display9{
+	display: none;
+	padding-top: 15px
+}
+
+.ancora{
+	text-decoration: none;
+	color: #4CAF50;
+	background-color: black; 
+	padding: 7px;
+	padding-top: 0px;
+}
+.ancora:hover{
+	background-color: #00FFA1;
+	padding: 7px;
+	padding-top: 0px;
+}
