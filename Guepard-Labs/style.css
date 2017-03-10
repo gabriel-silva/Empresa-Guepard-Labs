@@ -11,7 +11,7 @@ body {	/*padrao da pagina*/
 	
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
-	background-color: #737373;
+	background-color: rgba(121, 121, 121, 0.61);
 }
 .container-box-index{ /*caixa para o menu principal*/
 	background-color: #2A2930;
@@ -19,6 +19,7 @@ body {	/*padrao da pagina*/
 	width: 100%;
 	position: fixed;
 }
+
 .border-menu-fixed{ /*borda fixa do menu principal*/
 	background-color: #4CAF4F;
 	width: 100%;
@@ -26,7 +27,7 @@ body {	/*padrao da pagina*/
 	position: fixed;
 }
 
-.border-menu-index{ /*borda para todas as caixas transparentes*/
+.border-menu-index{ 
 	background-color: #4CAF4F;
 	width: 100%;
 	height: 4px;

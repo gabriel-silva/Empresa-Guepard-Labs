@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	background-color: rgba(121, 121, 121, 0.61);
+	
+}
+.dv1, .dv2, .dv3,
+.dv4, .dv5, .dv6,
+.dv7, .dv8, .dv9, .dv10{
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
+.table-center {
+    margin-left: 38%;
+    margin-right: 30%;
+}
+.box-for-all{
+	width: 90%;
+	margin: auto;
+}
+
+#titulo-all{ /* cor para todos titulos*/ 
+	color: #4CAF50;
+}
+
+.border-menu-index{ 
+	background-color: #4CAF4F;
+	width: 100%;
+	height: 4px;
+}
+
+.box-dv1, .box-dv2, .box-dv3, .box-dv4, .box-dv5, .box-dv6, .box-dv7, .box-dv8, .box-dv9, .box-dv10{
+	background: rgba(0, 0, 0, 0.6);
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.container-box{
+	height: 102px;
+	width: 200px;
+	text-decoration: none;
+	margin-left: 850px;
+	color: #4CAF50 !important;
+}
+
+.buttom{
+	list-style-type: none;
+}
+
+.buttom li a:hover{
+	background-color: #00FFA1;
+}
+
+.buttom li a{
+	text-align: center;
+	float: left;
+	height: 60px;
+	text-decoration: none;
+	color: inherit;
+	font-size: 17px;
+	width: 90%;
+	background-color: #2A2930;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+.class-logo-baixo img{ /* logo de baixo*/
+	margin-left: -20px;
+	width: 100px; 
+	height:75px;
+	padding-top: 2%;
+}
+
+.text-center, .class-logo-baixo, .container-onde-estamos{
+	text-align: center;
+}
+
+
+.container-footer{ /* footer informaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âµes debaixo */
+	margin-top: -9px;
+	background-color: #2A2930!important;
+	position: relative;
+}
