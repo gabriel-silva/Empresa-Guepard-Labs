@@ -11,9 +11,10 @@ body {	/*padrao da pagina*/
 	
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
+	background-color: #737373;
 }
 .container-box-index{ /*caixa para o menu principal*/
-	background-color: #616161;
+	background-color: #2A2930;
 	height: 102px;
 	width: 100%;
 	position: fixed;
@@ -41,7 +42,7 @@ body {	/*padrao da pagina*/
 }
 .container-menuopcoes-index {
 	color: #4CAF50 !important;
-	background-color: #616161 !important;
+	background-color: #2A2930 !important;
 }
 
 .container-menuopcoes-index{
@@ -69,7 +70,7 @@ body {	/*padrao da pagina*/
 	padding-bottom: 36px!important;
 }
 
-.text-center, .class-logo-baixo{
+.text-center, .class-logo-baixo, .container-onde-estamos{
 	text-align: center;
 }
 
@@ -79,8 +80,8 @@ body {	/*padrao da pagina*/
 }
 
 .box-for-all{ /* caixa preta transparente */
-	background:rgba(54, 54, 54, 0.60); 
-	width: 90%; 
+	background: rgba(0, 0, 0, 0.6);
+	width: 90%;
 	margin: auto;
 }
 
@@ -110,10 +111,15 @@ body {	/*padrao da pagina*/
 	width:500px;
 	height:300px;
 }
+.container-onde-estamos{
+	height: 400px;
+	width: 90%;
+}
 
 .container-onde-estamos{
-	padding-top: 50px;
-	padding-bottom: 50px;	
+	padding-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .class-logo-baixo img{ /* logo de baixo*/
@@ -125,13 +131,12 @@ body {	/*padrao da pagina*/
 
 .container-footer{ /* footer informaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes debaixo */
 	margin-top: -9px;
-	color: #fff!important;
-	background-color: #616161!important;
+	background-color: #2A2930!important;
 	position: relative;
 }
 .container-quemsomos{
 	text-align: center;
-	height: 670px;
+	height: 1000px;
 	width: 90%;
 }
 
@@ -146,31 +151,26 @@ body {	/*padrao da pagina*/
 	padding: 40px 40px;
 }
 
-.box-figure{
-	text-align: center;
-	float: left;
-	display: block;
-	padding: 8px 16px;
-	width: 200px;
-	height: 200px;
+.class-justify-all{
+	text-align: justify;
 }
 
 #display, #display2, #display3, 
 #display4, #display5, #display6, 
 #display7, #display8, #display9{
 	display: none;
-	padding-top: 15px
+	padding-top: 7px;
+	height: 200px;
 }
 
 .ancora{
 	text-decoration: none;
 	color: #4CAF50;
-	background-color: black; 
-	padding: 7px;
+	background-color: black;
+	padding: 5px;
 	padding-top: 0px;
 }
-.ancora:hover{
+.ancora:hover {
 	background-color: #00FFA1;
-	padding: 7px;
 	padding-top: 0px;
 }
