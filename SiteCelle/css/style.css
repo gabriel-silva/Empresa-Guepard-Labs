@@ -1,0 +1,32 @@
+.btn{
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+     border-radius: 10px;
+   
+}
+.btn-green{
+    background: green;
+    color: #fff;
+    box-shadow: 5px 5px 5px #006000;
+     border-radius: 10px;
+}
+.btn-green:hover{
+    background:#006000 ;
+    color: #fff; 
+    border-radius: 10px;
+    
+}
+.btn-green:active{
+    position: relative;
+    top:5px;
+    box-shadow:none;
+    border-radius: 10px;
+    
+}
