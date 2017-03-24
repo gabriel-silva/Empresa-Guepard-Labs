@@ -1,0 +1,57 @@
+Antigua e barbuda  17.077699, 61.799254  
+https://pt.wikipedia.org/wiki/Antígua_e_Barbuda
+
+Bahamas 24.6920214, -77.9837465 
+https://pt.wikipedia.org/wiki/Bahamas
+
+Bardados  13.196007, -59.527360 www.dicionarioinformal.com.br/bardados/
+
+Belize  17.186688, -88.476342
+https://pt.wikipedia.org/wiki/Belize
+
+Canadá  57.917214, -101.289944
+https://pt.wikipedia.org/wiki/Canadá
+
+Dominica   15.416643, -61.359992
+https://pt.wikipedia.org/wiki/Dominica
+
+Granada 37.178136, -3.584140
+https://pt.wikipedia.org/wiki/Granada_(Espanha)
+
+Guiana  4.857935, -58.884923
+https://pt.wikipedia.org/wiki/Guiana
+
+Ilhas cook  -21.237042, -159.768060
+https://pt.wikipedia.org/wiki/Ilhas_Cook
+
+
+Irlanda  53.413299, -8.235308
+https://pt.wikipedia.org/wiki/República_da_Irlanda
+
+Jamaica  18.111526, -77.290987
+https://pt.wikipedia.org/wiki/Jamaica
+
+Nigeria  9.082670, 8.686604
+https://pt.wikipedia.org/wiki/Nigéria
+
+Sao Cristovao e nevis  17.358465, -62.767894
+https://pt.wikipedia.org/wiki/São_Cristóvão_e_Nevis
+
+sao vicente e granadinas   13.251806, -61.188239
+https://pt.wikipedia.org/wiki/São_Vicente_e_Granadinas
+
+Trinidad e tobago 10.691458, -61.189760
+https://pt.wikipedia.org/wiki/Trindade_e_Tobago
+
+Australia  -25.274080, 133.778920
+www.australia.gov.au/
+
+Estados unidos  37.090493, -95.702593
+https://pt.wikipedia.org/wiki/Estados_Unidos
+
+Nova zelandia -40.900276, 174.912062
+https://pt.wikipedia.org/wiki/Nova_Zelândia
+
+Reino unido 55.377836, -3.428078
+https://pt.wikipedia.org/wiki/Reino_Unido
+
