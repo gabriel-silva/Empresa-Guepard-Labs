@@ -4,7 +4,7 @@ include_once 'cabecalho.php';
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Termos Tecnicos</title>
+	<title>Termos Técnicos</title>
 </head>
 <body>
     <section>
@@ -139,7 +139,7 @@ include_once 'cabecalho.php';
                     </tr>
                 </table>
                 <br/>
-                <span><small>Page 1 </small></span>
+                <span><small>Page 1 of 2 </small></span>
                 <a class="next_prev" href="termostecnicos1.php">Próximo</a>
                 <br/>
             </div>

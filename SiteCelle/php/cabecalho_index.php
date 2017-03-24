@@ -151,7 +151,7 @@ session_start();
                         <li><a href="php/expressoes_termos.php" class="botaoMenu" id="expressoes_termos.php">Expressões e Termos</a></li>
             <li><a href="php/numerais.php" class="botaoMenu" id="numerais.php">Numerais</a></li>
     <li><a href="php/medidas.php" class="botaoMenu" id="medidas.php">Medidas</a></li>
-    <li><a href="php/termostecnicos.php" class="botaoMenu" id="termostecnicos.php">Termos Tecnicos</a></li>
+    <li><a href="php/termostecnicos.php" class="botaoMenu" id="termostecnicos.php">Termos Técnicos</a></li>
                     </ul>    
                 </li>
                 <li><a href="php/arquivos.php" class="botaoMenu" id="arquivos.php">Envio</a></li>
