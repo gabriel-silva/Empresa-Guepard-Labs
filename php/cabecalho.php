@@ -145,12 +145,6 @@ session_start();
                           <li><a href="audios.php" class="submenu" class="audios">Áudios</a></li>
                       </ul>
                   </li>
-                  <li><a href="#" id="#">Atividades</a>
-                      <ul style="display:none;">
-          <li><a href="quiz.php" class="submenu">Quiz 1</a></li>
-          <li><a href="quiz_2.php" class="submenu">Quiz 2</a></li>
-                      </ul>
-                  </li>
                   <li><a href="#" id="#">Conteúdos</a>
                       <ul style="display:none;">
                           <li><a href="paises_nacionalidades.php" class="submenu" id="paises_nacionalidades">Países e Nacionalidades</a></li>
@@ -159,7 +153,15 @@ session_start();
                           <li><a href="numerais.php" class="submenu" id="numerais">Numerais</a></li>
                           <li><a href="medidas.php" class="submenu" id="medidas">Medidas</a></li>
                           <li><a href="termostecnicos.php" class="submenu" id="termostecnicos">Termos Técnicos</a></li>
+                          <li><a href="termostecnicosdelogistica.php" class="submenu" id="expressoes">Termos Logistica</a></li>
+                          <li><a href="mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
                       </ul>    
+                  </li>
+                  <li><a href="#" id="#">Atividades</a>
+                      <ul style="display:none;">
+          				<li><a href="quiz.php" class="submenu">Quiz 1</a></li>
+          				<li><a href="quiz_2.php" class="submenu">Quiz 2</a></li>
+                      </ul>
                   </li>
                   <li><a href="arquivos.php" class="submenu" id="arquivos.php">Envio</a></li>
                   <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php">Extra</a></li>        
