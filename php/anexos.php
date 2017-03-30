@@ -16,140 +16,31 @@
 
 
 			<table>
-				<tr>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/airplane.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/airplane.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/american_football.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/american_football.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/apple.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/apple.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/archery.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/archery.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					</audio>
-					</td>
-					<td> 
-						<figure>	
-							<img src="../Imagens/imagens_mafia/arm.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/arm.mp3" type="audio/mp3">
-					 
-						</audio>
-						<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/auditorium.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/auditorium.mp3" type="audio/mp3">
-					 
-						</audio>
+				<?php
+				$nome = ['airplane','american_football','apple','archery','arm','auditorium','back','baseball','beans','bear','belly','bicycle','bird','blackboard','boat','books','boxing','bread','bus','butterfly','candy','canoeing','car','carrots','cheese','chin','classroom','coconut','cycling','dolphin','ear','eggs','elbow','eraser','exam','eye','eyebrows','fencing','finger','fish','foot','fox','fruits','guava','hair','hands','horse','horsemanship','ice_hockey','knee','leg','lemon','library','long_jump','meat','motorcycle','motoring','mouth','nails','neck','nose','orange','owl','papaya','parachuting','parrot','peaches','pen','pepper','pineapple','pole_vault','popcorn','potato','race','rice','roller_skating','rowing','rugby','sailing','scooter','shark','ship','shot','shot_put','shoulder','skateboard','slackline','soccer','strawberry','streetcar','student','subway','sugar','swimming','teacher','tennis','thigh','tomato','track_field','train','watermelon','wolf','wrist'];
 
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/back.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/back.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/baseball.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/baseball.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
+				for($i=0; $i < count($nome) -1; $i+=2){
+					echo "<tr>
+							<td>
+								<figure>
+									<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" width=\"80%\"heigth=\"80%\">
+								</figure>
+								<audio controls> 
+									<source src=\"../audios/audios_mafia/".$nome[$i].".mp3\" type=\"audio/mp3\">
+								</audio>
+							</td>	
+							<td>
+								<figure>
+									<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" width=\"80%\"heigth=\"80%\">
+								</figure>
+								<audio controls> 
+									<source src=\"../audios/audios_mafia/".$nome[$i+1].".mp3\" type=\"audio/mp3\">
+								</audio>
+							</td>		
+						</tr>";
 
-				</tr>
-				<tr>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/bear.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/bear.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/belly.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/belly.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/bicycle.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/bicycle.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-
-					<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/bird.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/bird.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-
-					<tr>
-						<td>
-						<figure>	
-							<img src="../Imagens/imagens_mafia/blackboard.jpg">
-						</figure>
-						<audio controls>
-					  		<source src="../audios/audios_mafia/blackboard.mp3" type="audio/mp3">
-					 
-						</audio>
-					</td>
-					</tr>
-
-				</tr>
-			
-			       </div>
-            </div>  
+				}
+				?>
         </table>
     </section>
 		</body>
@@ -157,4 +48,3 @@
 	<?php 
 	include_once 'rodape.php';
 ?>
-
