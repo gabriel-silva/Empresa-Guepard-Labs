@@ -154,6 +154,7 @@ session_start();
                   <li><a href="#" id="#">Conteúdos</a>
                       <ul style="display:none;">
                           <li><a href="paises_nacionalidades.php" class="submenu" id="paises_nacionalidades">Países e Nacionalidades</a></li>
+                          <li><a href="phrasal_verbs.php" class="submenu" id="phrasal_verbs">Phrasal Verbs</a></li>
                           <li><a href="expressoes_termos.php" class="submenu" id="expressoes_termos">Expressões e Termos</a></li>
                           <li><a href="numerais.php" class="submenu" id="numerais">Numerais</a></li>
                           <li><a href="medidas.php" class="submenu" id="medidas">Medidas</a></li>
