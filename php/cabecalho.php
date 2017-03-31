@@ -153,7 +153,7 @@ session_start();
                           <li><a href="expressoes_termos.php" class="submenu" id="expressoes_termos">Expressões e Termos</a></li>
                           <li><a href="numerais.php" class="submenu" id="numerais">Numerais</a></li>
                           <li><a href="medidas.php" class="submenu" id="medidas">Medidas</a></li>
-                          <li><a href="termostecnicos.php" class="submenu" id="termostecnicos">Termos Técnicos</a></li>
+                          <li><a href="termostecnicos.php" class="submenu" id="termo">Termos Técnicos</a></li>
                           <li><a href="termostecnicosdelogistica.php" class="submenu" id="expressoes">Termos Logistica</a></li>
                           <li><a href="mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
                       </ul>    
