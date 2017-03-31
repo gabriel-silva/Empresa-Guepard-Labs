@@ -143,7 +143,7 @@ session_start();
                       <ul style="display:none;">
                           <li><a href="videos.php" class="submenu" class="videos">Vídeos</a></li>
                           <li><a href="audios.php" class="submenu" class="audios">Áudios</a></li>
-                          <li><a href="anexos.php" class="submenu" class="anexos">Anexos</a></li>
+                          <li><a href="imagens_audio.php" class="submenu" class="imagens e audios">Imagnes e Audios</a></li>
                       </ul>
                   </li>
                   <li><a href="#" id="#">Conteúdos</a>
