@@ -23,7 +23,7 @@
 				<?php for($i=0; $i < count($nome)-2; $i+=3){
 					echo "<tr><td> <div float=\"left\">
 								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" width=\"30%\"heigth=\"30%\">
+									<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
 								<audio controls> 
 									<source src=\"../audios/audios_mafia/".$nome[$i].".mp3\" type=\"audio/mp3\">
@@ -31,7 +31,7 @@
 						  </div> </td>
 						  <td> <div float=\"left\">
 								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" width=\"30%\"heigth=\"30%\">
+									<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
 								<audio controls> 
 									<source src=\"../audios/audios_mafia/".$nome[$i+1].".mp3\" type=\"audio/mp3\">
@@ -39,7 +39,7 @@
 						  </div> </td>
 						  <td> <div float=\"left\">
 								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i+2].".jpg\" width=\"30%\"heigth=\"30%\">
+									<img src=\"../Imagens/imagens_mafia/".$nome[$i+2].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
 								<audio controls> 
 									<source src=\"../audios/audios_mafia/".$nome[$i+2].".mp3\" type=\"audio/mp3\">
