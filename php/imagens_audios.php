@@ -3,6 +3,48 @@
 	?>
 	<html lang="pt-br">
 		<head>
+			<style>
+				.conteiner {
+				    position: relative;
+				    /*width: 50%;*/
+				}
+
+				.image {
+				  opacity: 1;
+				  display: block;
+				  width: 100%;
+				  height: auto;
+				  transition: .5s ease;
+				  backface-visibility: hidden;
+				}
+					.overlay {
+					  position: absolute;
+					  top: 0;
+					  bottom: 0;
+					  left: 0;
+					  right: 0;
+					  height: 100%;
+					  width: 100%;
+					  opacity: 0;
+					  transition: .5s ease;
+					  background-color: #008CBA;
+					}
+				.container:hover .image {
+				  opacity: 0.3;
+				}
+
+				.container:hover .middle {
+				  opacity: 1;
+				}
+
+				 .text {
+				  background-color: #4CAF50;
+				  color: white;
+				  font-size: 16px;
+				  padding: 16px 32px;
+				}
+			</style>
+
 			<meta charset="utf-8">
 			<title>Imagens e Aúdios</title>
 		</head>
@@ -21,33 +63,57 @@
 				<table>
 
 				<?php for($i=0; $i < count($nome)-2; $i+=3){
-					echo "<tr><td> <div float=\"left\">
-					<p><= $nome[$i] ?></p>
-								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" width=\"80%\"heigth=\"80%\">
-								</figure>
-								<audio controls> 
-									<source src=\"../audios/audios_mafia/".$nome[$i].".mp3\" type=\"audio/mp3\">
-								</audio>
-						  </div> </td>
-						  <td> <div float=\"left\">
-						  <p><= $nome[$i+1]?></p>
-								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" width=\"80%\"heigth=\"80%\">
-								</figure>
-								<audio controls> 
-									<source src=\"../audios/audios_mafia/".$nome[$i+1].".mp3\" type=\"audio/mp3\">
-								</audio>
-						  </div> </td>
-						  <td> <div float=\"left\">
-						  <p><= $nome[$i+2] ?></p>
-								<figure>
-									<img src=\"../Imagens/imagens_mafia/".$nome[$i+2].".jpg\" width=\"80%\"heigth=\"80%\">
-								</figure>
-								<audio controls> 
-									<source src=\"../audios/audios_mafia/".$nome[$i+2].".mp3\" type=\"audio/mp3\">
-								</audio>
-						  </div> </td></tr>";							
+					echo "<tr>
+							<td> 
+								<div float=\"left\">
+										<div class=\"overplay\">
+											<div class = \"text\"> <p>".$nome[$i]."</p> </div>
+										</div>
+										<div class= \"conteiner\">
+											<figure>
+													<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" alt =\"Avatar\" class =\"image\">
+															<div class=\"middle\">
+																<div class=\"text\"></div>
+															</div>
+											</figure>
+								</div>
+									<audio controls> 
+										<source src=\"../audios/audios_mafia/".$nome[$i].".mp3\" type=\"audio/mp3\">
+									</audio>
+						  		</div>
+						   </td>
+						  <td> 
+						  	<div float=\"left\">
+						  		<div class = \"text\"> <p>".$nome[$i+1]."</p> </div>
+						  			<div class= \"conteiner\">
+										<figure>
+												<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" alt =\"Avatar\" class =\"image\">
+														<div class=\"middle\">
+															<div class=\"text\"></div>
+														</div>
+										</figure>
+									</div>
+										<audio controls> 
+											<source src=\"../audios/audios_mafia/".$nome[$i+1].".mp3\" type=\"audio/mp3\">
+										</audio>
+						  	</div> 
+						  </td>
+						  <td> 
+						  		<div float=\"left\">
+						  			<div class = \"text\"> <p>".$nome[$i+2]."</p> </div>
+						  			<div class= \"conteiner\">
+										<figure>
+											<img src=\"../Imagens/imagens_mafia/".$nome[$i+2].".jpg\" alt =\"Avatar\" class =\"image\">
+											<div class= \"middle\">
+												<div class=\"text\"></div>
+										</figure>
+									</div>
+											<audio controls> 
+												<source src=\"../audios/audios_mafia/".$nome[$i+2].".mp3\" type=\"audio/mp3\">
+											</audio>
+						  		</div> 
+						  </td>
+						</tr>";							
 
 				}
 				?>
