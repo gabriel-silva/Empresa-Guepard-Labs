@@ -22,6 +22,7 @@
 
 				<?php for($i=0; $i < count($nome)-2; $i+=3){
 					echo "<tr><td> <div float=\"left\">
+					<p><= $nome[$i] ?></p>
 								<figure>
 									<img src=\"../Imagens/imagens_mafia/".$nome[$i].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
@@ -30,6 +31,7 @@
 								</audio>
 						  </div> </td>
 						  <td> <div float=\"left\">
+						  <p><= $nome[$i+1]?></p>
 								<figure>
 									<img src=\"../Imagens/imagens_mafia/".$nome[$i+1].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
@@ -38,6 +40,7 @@
 								</audio>
 						  </div> </td>
 						  <td> <div float=\"left\">
+						  <p><= $nome[$i+2] ?></p>
 								<figure>
 									<img src=\"../Imagens/imagens_mafia/".$nome[$i+2].".jpg\" width=\"80%\"heigth=\"80%\">
 								</figure>
