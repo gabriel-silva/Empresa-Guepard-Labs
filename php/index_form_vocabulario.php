@@ -5,7 +5,7 @@ include_once 'cabecalho.php';
 <title>Vocabulário</title>
 <section>
 	<div id="conteudo">
-		<form id="frmCadastro" action="cadastrar.php" method="post" >
+		<form id="frmCadastro" action="processador_form_vocabulario.php" method="post" >
 			<h3> Adicionar vocabulário </h3>
 			<label for="txtPalavra">Palavra:</label>
 				<input type="text" name="txtPalavra" placeholder="Palavra" required/>
@@ -31,7 +31,7 @@ include_once 'cabecalho.php';
 			</thead>
 			<tbody id="corpo">
 				<?php
-				require_once 'Conexao.php';
+				require_once 'conexao_form_vocabulario.php';
 				$conexao = new Conexao(DB_SERVER, DB_NAME, DB_USERNAME, DB_PASSWORD);
 
 				$select = $conexao->select('CELLE_VOCABULARIO');
@@ -42,7 +42,7 @@ include_once 'cabecalho.php';
 						echo "<td>".$vocabulario['VOC_CATEGORIA']."</td>";
 						echo "<td>".$vocabulario['VOC_AUDIO']."</td>";
 						echo "<td>".$vocabulario['VOC_IMAGEM']."</td>";
-						echo "<td><a href='deletar.php?voc_id=".$vocabulario['VOC_ID']."' ><img src='../Imagens/deletar.gif'></a></td></tr>\n";
+						echo "<td><a href='deletar_form_vocabulario.php?voc_id=".$vocabulario['VOC_ID']."' ><img src='../Imagens/deletar.gif'></a></td></tr>\n";
 					}
 				}
 				?>		

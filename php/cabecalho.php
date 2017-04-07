@@ -169,7 +169,7 @@ session_start();
                   <li><a href="arquivos.php" class="submenu" id="arquivos.php">Envio</a></li>
                   <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php">Extra</a></li>        
                   <li><a href="contatos.php" class="submenu" id="CONTATOS.php">Contato</a></li>
-                  <li><a href="vocabulario.php" class="submenu" id="vocabulario.php">Área Administrativa</a></li>
+                  <li><a href="index_form_vocabulario.php" class="submenu" id="index_form_vocabulario.php">Área Administrativa</a></li>
 
               </ul>
               <br><br>

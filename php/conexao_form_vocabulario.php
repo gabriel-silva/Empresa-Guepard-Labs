@@ -5,7 +5,7 @@ define('DB_NAME', 'site_celle');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 
-define('MYSQL_ASSOC',MYSQLI_ASSOC);
+//define('MYSQL_ASSOC',MYSQL_ASSOC);
 
 class Conexao {
 
