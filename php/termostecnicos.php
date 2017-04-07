@@ -1,4 +1,4 @@
-re<?php
+<?php
 include_once 'cabecalho.php';
 ?>
 <html lang="pt-br">
