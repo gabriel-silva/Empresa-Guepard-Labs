@@ -57,9 +57,7 @@ include_once 'cabecalho.php';
 			<h1 class="t1">Imagens e Aúdios</h1>
 			<hr id="hr-top"></hr>
 			<div class="imagens_audios">
-
-
-				<table>
+				
 					<?php
 					$nome = ['airplane','american_football','apple','archery','arm','auditorium','back','baseball','beans','bear','belly','bicycle','bird','blackboard','boat','books','boxing','bread','bus','butterfly','candy','canoeing','car','carrots','cheese','chin','classroom','coconut','cycling','dolphin','ear','eggs','elbow','eraser','exam','eye','eyebrows','fencing','finger','fish','foot','fox','fruits','guava','hair','hands','horse','horsemanship','ice_hockey','knee','leg','lemon','library','long_jump','meat','motorcycle','motoring','mouth','nails','neck','nose','orange','owl','papaya','parachuting','parrot','peaches','pen','pepper','pineapple','pole_vault','popcorn','potato','race','rice','roller_skating','rowing','rugby','sailing','scooter','shark','ship','shot','shot_put','shoulder','skateboard','slackline','soccer','strawberry','streetcar','student','subway','sugar','swimming','teacher','tennis','thigh','tomato','track_field','train','watermelon','wolf','wrist'];?>
 					<table>
@@ -67,7 +65,7 @@ include_once 'cabecalho.php';
 						<?php for($i=0; $i < count($nome)-2; $i+=3):
 						?> <tr>
 						<td> 
-							<div float=\"left">
+							<div float= "left">
 								<div class="overplay">
 									<div class = "text"> 
 										<b> 
