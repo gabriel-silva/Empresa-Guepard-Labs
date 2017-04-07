@@ -107,7 +107,59 @@ include_once 'cabecalho.php';
 </td>
 					</tr>
 
+<tr>
+						<td>Materials Management </td> 
+						<td> Administração de Materiais– conjunto de operações relativas ao fluxo de materiais e informações desde a fonte de matéria-prima até a entrada no processo produtivo.
 
+</td>
+					</tr>
+					<tr>
+						<td>CEQ
+</td> 
+						<td>Controle Estatístico da Qualidade
+
+</td>
+					</tr>
+					<tr>
+						<td>CKD</td> 
+						<td> Completely Knocked Down (completamente desmontado) – sigla utilizada quando um produto acabado é transportado desmontado para ser montado no destino final.
+</td>
+					</tr>
+					<tr>
+						<td>Consolidation</td> 
+						<td> Consolidação-União de duas ou mais remessas para gerar uma solução de transporte mais econômica. Ver Centro de Consolidação.
+</td>						
+					</tr>
+					<tr>
+						<td>Container</td> 
+						<td>Recipiente-Uma caixa metálica lacrada e reutilizável, usada para o transporte de mercadorias por via marítima ou ferroviária
+
+</td>				
+                    </tr>	
+                     <tr>
+						<td>Credit Scoring</td> 
+						<td>Pontuação de crédito-É a pontuação resultante de uma fórmula estatística baseada em dados cadastrais para avaliar a probabilidade de o cliente novo vir a se tornar mau cliente.
+
+</td>					   
+                      </tr>	
+                     <tr>
+						<td>CRM</td> 
+						<td>Customer Relationship Management, ou administração do relacionamento com consumidores. Trata-se de um software utilizado no gerenciamento das relações das empresas com os consumidores no processo de Marketing individualizado, que trata cada cliente como se fosse único.
+
+</td>					 
+                    </tr>	
+                     <tr>
+						<td>Drop size</td> 
+						<td> Tamanho da gota-É a quantidade que o fornecedor entrega para cada cliente – ou a quantidade total vendida dividida pelo número de entregas realizadas.
+
+</td>					
+                    </tr>
+                    <tr>
+                    	<td>FIFO</td>
+                    	<td>First-In, First-Out ou Primeiro que Entra é o Primeiro que Sai (PEPS).
+                    		
+</td>
+                    </tr>
 				</div>
             	</div>  
 			</table>
