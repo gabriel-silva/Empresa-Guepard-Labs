@@ -11,7 +11,7 @@ include_once 'cabecalho.php';
         <div id="conteudo">
             <h1 class="t1"> Termos Técnicos </h1>
             <hr id="hr-top"></hr>
-            <div class="expressoes">
+            <div class="termo">
                 <table>
                     <tr>
                         <th>Termo</th>
