@@ -65,7 +65,7 @@ include_once 'cabecalho.php';
 						<?php for($i=0; $i < count($nome)-2; $i+=3):
 						?> <tr>
 						<td> 
-							<div float=\"left">
+							<div float= "left">
 								<div class="overplay">
 									<div class = "text"> 
 										<b> 
