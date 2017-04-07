@@ -1,9 +1,10 @@
 <?php
 
 define('DB_SERVER', 'localhost');
-define('DB_NAME', 'CELLE_VOCABULARIO');
+define('DB_NAME', 'site_celle');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '20114321');
+define('DB_PASSWORD', '');
+
 define('MYSQL_ASSOC',MYSQLI_ASSOC);
 
 class Conexao {
