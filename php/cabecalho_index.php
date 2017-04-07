@@ -8,11 +8,12 @@ session_start();
     <title>Sobre</title>
     <meta charset="utf-8">
     <script src="javaScript/jquery-1.12.0.min.js"></script>
-    <link rel="shortcut icon" href="imagens/logoIFPE.png"/>
+    <link rel="shortcut icon" href="imagens/logoIFPE.png"/>                
     <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/estilo_quiz.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/style_cadastro.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/kickstart-buttons.css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="css/estilos_1.css" media="all"> -->
     <script src="javaScript/javaScript.js"></script>
 </head>
 <body>
@@ -146,8 +147,8 @@ session_start();
                         <li><a href="php/numerais.php" class="botaoMenu" id="numerais.php">Numerais</a></li>
                         <li><a href="php/medidas.php" class="botaoMenu" id="medidas.php">Medidas</a></li>
                         <li><a href="php/termostecnicos.php" class="botaoMenu" id="termostecnicos.php">Termos Técnicos</a></li>
-                        <li><a href="termostecnicosdelogistica.php" class="submenu" id="expressoes">Termos de Logistica</a></li>
-                        <li><a href="mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
+                        <li><a href="php/termostecnicosdelogistica.php" class="submenu" id="expressoes">Termos de Logistica</a></li>
+                        <li><a href="php/mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
                     </ul>    
                 </li>
                 <li><a href="#" id="#">Atividades</a>
@@ -159,6 +160,7 @@ session_start();
                 <li><a href="php/arquivos.php" class="botaoMenu" id="arquivos.php">Envio</a></li>
                 <li><a href="php/sites_relacionados.php" class="botaoMenu" id="sites_relacionados.php">Sites Relacionados</a></li>
                 <li><a href="php/contatos.php" class="botaoMenu" id="CONTATOS.php">Contato</a></li>
+                <li><a href="php/vocabulario.php" class="botaoMenu" id="vocabulario.php">Área Administrativa</a></li>
             </ul>
             <br><br>
         </nav>

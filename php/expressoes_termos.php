@@ -234,7 +234,7 @@ include_once 'cabecalho.php';
         </table>
     </section>
 </body>
-</html>
+</html>x
 <?php 
 include_once 'rodape.php';
 ?>

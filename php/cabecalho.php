@@ -9,10 +9,12 @@ session_start();
     <meta charset="utf-8">
     <script src="../javaScript/jquery-1.12.0.min.js"></script>
     <link rel="shortcut icon" href="../imagens/logoIFPE.png"/>
+    <link rel="stylesheet" type="text/css" href="..css/estilos_1.css" media="all">        
     <link rel="stylesheet" type="text/css" href="../css/estilo.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/estilo_quiz.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/style_cadastro.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/kickstart-buttons.css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/estilos_1.css" media="all"> -->
     <script src="../javaScript/javaScript.js"></script>
 </head>
 <body>
@@ -167,6 +169,8 @@ session_start();
                   <li><a href="arquivos.php" class="submenu" id="arquivos.php">Envio</a></li>
                   <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php">Extra</a></li>        
                   <li><a href="contatos.php" class="submenu" id="CONTATOS.php">Contato</a></li>
+                  <li><a href="vocabulario.php" class="submenu" id="vocabulario.php">Área Administrativa</a></li>
+
               </ul>
               <br><br>
           </nav>
