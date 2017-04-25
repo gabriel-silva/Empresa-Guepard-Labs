@@ -189,9 +189,9 @@ CREATE TABLE usuarios (
 -- Dumping data for table usuarios
 --
 
-INSERT INTO usuarios (id, nome, sexo, datanasc, telefone, email, usuario, senha, periodo, curso, matricula, papel) VALUES
-(12, 'Bertonni Thiago', 'Masculino', '08/11/1986', '81987330562', 'ibragamesonly@gmail.com', 'bertonnipaz', '202cb962ac59075b964b07152d234b70', '2', 'IPI', '8819', ''),
-(13, 'Teste', 'Masculino', '08/03/1992', '', 'teste@teste.com', 'ibrakadabra', '827ccb0eea8a706c4c34a16891f84e7b', '2', 'IPI', '4456', '');
+INSERT INTO usuarios (id, nome, sexo, datanasc, telefone, email, usuario, senha, periodo, curso, matricula) VALUES
+(12, 'Bertonni Thiago', 'Masculino', '08/11/1986', '81987330562', 'ibragamesonly@gmail.com', 'bertonnipaz', '202cb962ac59075b964b07152d234b70', '2', 'IPI', '8819'),
+(13, 'Teste', 'Masculino', '08/03/1992', '', 'teste@teste.com', 'ibrakadabra', '827ccb0eea8a706c4c34a16891f84e7b', '2', 'IPI', '4456');
 
 --
 -- Indexes for dumped tables

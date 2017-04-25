@@ -119,7 +119,8 @@
 
 					
 					$('#' + a_id).on("click", (function(_marker) {
-						return function() {
+						return function(evt) {
+							evt.preventDefault();
 							google.maps.event.trigger(_marker, 'click');			
 						}
 					})(marker));
@@ -128,7 +129,7 @@
 
 			}	
 
-
+ 
 		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY6ppukokIs5G3EhB43AvVo--MPW5dwsI&callback=initMap"
 		type="text/javascript"></script>
