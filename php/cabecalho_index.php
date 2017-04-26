@@ -124,7 +124,7 @@ session_start();
 
             <div class="banner">
                 <div id="logo-reitoria">
-                    <img src="imagens/logo.png" widht="300px" height="90px">
+                    <img src="../logo.png" widht="300px" height="90px">
                     <a class="acesso-reitoria"></a>
                 </div>
             </div>
