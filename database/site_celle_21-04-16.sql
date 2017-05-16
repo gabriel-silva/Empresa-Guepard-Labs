@@ -26,6 +26,9 @@ SET time_zone = "+00:00";
 -- Table structure for table `perguntas`
 --
 
+CREATE DATABASE site_celle;
+USE site_celle;
+
 CREATE TABLE perguntas (
   id int(11) NOT NULL,
   audio varchar(20) COLLATE latin1_general_ci NOT NULL,

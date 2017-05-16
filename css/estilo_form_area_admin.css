@@ -9,19 +9,19 @@ input {
 }
 
 form{
-	width: 50%;
+  width: 50%;
 }
 
 label.required{
-	color: red;
+  color: red;
 }
 img{
-	width: 15px;
-	height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 
-:invalid { 
+:invalid {
   border-color: #e88;
   -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
   -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
@@ -69,12 +69,12 @@ input[type=submit] {
 
 table {
   width:50%;
-  margin: 20px auto;
-  border
+  margin: 20px auto; 
+  border;
 }
 
 table, td, th {
-    border: 1px solid green;
+    border: 1px solid green; 
 }
 
 th {

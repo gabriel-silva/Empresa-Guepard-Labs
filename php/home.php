@@ -19,6 +19,7 @@
 	</div>	
 </section>
 </div>
+
 <?php 
 	include_once 'rodape.php';
 ?>

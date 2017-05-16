@@ -25,9 +25,11 @@ p:hover {
 	display: block;
     
 }
+
 #logoCelle{
    float: left;  
 }
+
 h1{
 	font-size: 30px;
 	margin-right: 10px;
@@ -36,6 +38,9 @@ h1{
 }
 p{
 	margin-right: 10px;
+}
+.center{
+	text-align: center;
 }
 #conteudo{
 	width: 70%;
@@ -302,30 +307,3 @@ span {
  background: #00420c;
  color:#69c;
  }
-/* termos técnicos*/
-
-.termo table, .termo tr, .termo th, .termo td {
-	
-	border-collapse: collapse;
-    padding: 8px 10px;
-}
-.termo table tr:first-child {
-	background-color: #353535;
-    color: #FFF;
-}
-.termo table tr:nth-child(even) {
-    background-color: #DFDFDF;
-}
-.termo table th{
-    text-align: left;
-}
-.termo th {
-    width: 220px;
-}
-.termo {
-    font-size: 14.5px;
-   
-}
-
-
-
