@@ -1,14 +1,14 @@
 <?php 
 include_once 'cabecalho.php';
 ?>
-<title>Imagens e Aúdios</title>
+<title>Listening</title>
 <link rel="stylesheet" type="text/css" href="../css/imagens_audios.css">
 
 
 <section>
 	<div id="conteudo">  
 
-		<h1 class="t1">Imagens e Aúdios</h1>
+		<h1 class="t1">Listening</h1>
 		<hr id="hr-top"></hr>
 		<div class="box">
 
