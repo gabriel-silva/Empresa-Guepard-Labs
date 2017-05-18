@@ -144,7 +144,7 @@ window.onload = dropdown_init;
       <ul style="display:none;">
         <li><a href="videos.php" class="submenu" class="videos">Vídeos</a></li>
         <li><a href="audios.php" class="submenu" class="audios">Áudios</a></li>
-        <li><a href="imagens_audios.php" class="submenu" class="imagens e audios">Imagens e Audios</a></li>
+        <li><a href="imagens_audios.php" class="submenu" class="imagens e audios">Listening</a></li>
       </ul>
     </li>
     <li><a href="#" id="#">Conteúdos</a>
