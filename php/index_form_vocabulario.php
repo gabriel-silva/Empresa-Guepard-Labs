@@ -5,27 +5,27 @@ include_once 'cabecalho.php';
 <title>Vocabulário</title>
 <section>
 	<div id="conteudo">
-		<form id="frmCadastro" action="processador_form_vocabulario.php" method="post" >
+		<form id="frmCadastro" action="../processadores/processador_form_vocabulario.php" method="post" >
 			<h3> Adicionar vocabulário </h3>
 			<label for="txtPalavra">Palavra:</label>
-				<input type="text" name="txtPalavra" placeholder="Palavra" required/>
+			<input type="text" name="txtPalavra" placeholder="Palavra" required/>
 			
 			<label for="txtCategoria">Categoria:</label>
-				<input type="text" name="txtCategoria" placeholder="Categoria"/>
+			<input type="text" name="txtCategoria" placeholder="Categoria"/>
 			
 			<label for="txtAudio">Audio:</label>
-				<input type="text" name="txtAudio"/>
+			<input type="text" name="txtAudio"/>
 			
 			<label for="txtImagem">Imagem:</label>
-				<input type="text" name="txtImagem"/> 
+			<input type="text" name="txtImagem"/> 
 			
 			<input type="submit" value="Salvar" id="btnSalvar" name="submit"/> 
 		</form>
 		
-		<table id="tblListar">
+		<table id="table_form"style="border: 1px solid green">
 			<caption>VOCABULARIO</caption>
 			<thead>
-				<tr> 
+				<tr style="border: 1px solid green"> 
 					<th>ID</th> <th>NOME</th> <th>CATEGORIA</th> <th>AUDIO</th> <th>IMAGEM</th>
 				</tr>
 			</thead>
