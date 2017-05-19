@@ -29,7 +29,7 @@ include_once 'cabecalho.php';
 								<p><?= strtoupper($nome[$i])?></p> 
 							</b> 
 						</figcaption>
-						<img src="../Imagens/imagens_mafia/<?=$nome[$i]?>.jpg" alt ="Avatar" class ="image">
+						<img src="../imagens/imagens_mafia/<?=$nome[$i]?>.jpg" alt ="Avatar" class ="image">
 						<figcaption>
 							<audio controls> 
 								<source src="../audios/audios_mafia/<?=$nome[$i]?>.mp3" type="audio/mp3">
@@ -48,7 +48,7 @@ include_once 'cabecalho.php';
 								<p><?= strtoupper($nome[count($nome)-1])?></p> 
 							</b> 
 						</figcaption>
-						<img src="../Imagens/imagens_mafia/<?=$nome[count($nome)-1]?>.jpg" alt ="Avatar" class ="image">
+						<img src="../imagens/imagens_mafia/<?=$nome[count($nome)-1]?>.jpg" alt ="Avatar" class ="image">
 						<figcaption>
 							<audio controls> 
 								<source src="../audios/audios_mafia/<?=$nome[count($nome)-1]?>.mp3" type="audio/mp3">
