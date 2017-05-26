@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="98439676-f2fd-4374-8361-25105277aa9b" name="Xampp Apache" url="http://localhost/PhpStormProjects/Empresa-Guepard-Labs">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\PhpStormProjects" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

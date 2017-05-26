@@ -1,12 +1,12 @@
 <?php
 session_start();
 ?>
-<html>
-<head>
-	<title>Resultados</title>
-	<link rel="stylesheet" type="text/css" href="../css/estilo_quiz.css" media="all">
-</head>
-</html>
+    <html>
+    <head>
+        <title>Resultados</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilo_quiz.css" media="all">
+    </head>
+    </html>
 <?php
 $server = "localhost";
 $user = "root";
@@ -34,14 +34,14 @@ echo "<tr>
 			<th>Aproveitamento</th>
 			<th>Data / Hora</th>
 		  </tr>";
-while($arr = mysqli_fetch_array($result_2)){
-	echo "
+while ($arr = mysqli_fetch_array($result_2)) {
+    echo "
 		<tr>
-			<td class='td'>". $arr['contexto'] ."</td>
-			<td class='td'>". $arr['acertos'] ."</td>
-			<td class='td'>". $arr['erros'] ."</td>
-			<td class='td'>". $arr['percentual'] ."%</td>
-			<td class='td'>". $arr['data'] ."</td>
+			<td class='td'>" . $arr['contexto'] . "</td>
+			<td class='td'>" . $arr['acertos'] . "</td>
+			<td class='td'>" . $arr['erros'] . "</td>
+			<td class='td'>" . $arr['percentual'] . "%</td>
+			<td class='td'>" . $arr['data'] . "</td>
 		</tr>
 		";
 }

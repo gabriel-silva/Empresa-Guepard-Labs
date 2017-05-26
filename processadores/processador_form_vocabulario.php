@@ -5,7 +5,7 @@
 	$dados = array('VOC_PALAVRA' => $_POST["txtPalavra"], 'VOC_CATEGORIA' => $_POST["txtCategoria"], 'VOC_AUDIO' => $_POST['txtAudio'], 'VOC_IMAGEM' => $_POST['txtImagem']);
 
 
-	$insert = $conexao->insert('CELLE_VOCABULARIO', $dados); 
+	$insert = $conexao->insert('VOCABULARIO_CELLE', $dados);
 	
 // redireciona para a página anterior
 	header("Location: {$_SERVER['HTTP_REFERER']}");

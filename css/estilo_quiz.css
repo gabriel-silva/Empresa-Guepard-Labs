@@ -1,125 +1,149 @@
 
 .img:hover {
-	border-color: #21b4d0;
+    border-color: #21b4d0;
 }
+
 .content {
-	width: 465px;
-	height: 370px;
-	margin: 0;
+    width: 465px;
+    height: 370px;
+    margin: 0;
 }
+
 .item {
-	width: 200px;
-	height: 175px;
-	float: left;
+    width: 200px;
+    height: 175px;
+    float: left;
 }
+
 .itens {
-	width: 460px;
-	display: block;
+    width: 460px;
+    display: block;
 }
+
 ul .itens {
-	float: left;
-	list-style-type: none;
-	width: 200px;
-	height: 190px;
-	display: block;
-	padding: 0;
+    float: left;
+    list-style-type: none;
+    width: 200px;
+    height: 190px;
+    display: block;
+    padding: 0;
 }
+
 ul .itens:nth-child(2), ul .itens:nth-child(4) {
-	padding-left: 30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}	
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 h2, span, input, form, .audio, option, body, #contexto, button {
-	/*margin-left: 10%;
-	margin-right: 10%;*/
+    /*margin-left: 10%;
+    margin-right: 10%;*/
 }
+
 select {
-	margin-left: 0;
-	margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
 audio {
-	/*margin-left: 14%;*/
-	position: relative;
+    /*margin-left: 14%;*/
+    position: relative;
 }
+
 /*.palavra {
 	font-size: 30px;
 }*/
-label > input{ /* Esconde o radio */
-	visibility: hidden; /* Esconde o input */
-	position: absolute; /* Retira o input do fluxo do documento */
+label > input { /* Esconde o radio */
+    visibility: hidden; /* Esconde o input */
+    position: absolute; /* Retira o input do fluxo do documento */
 }
-label > input + .img{ /* Estilo da Imagen */
-	cursor: pointer;
-	border: 7px solid transparent;
-	
-	
+
+label > input + .img { /* Estilo da Imagen */
+    cursor: pointer;
+    border: 7px solid transparent;
+
 }
-label > input:checked + .img{ /* Estilo da imagen quando selecionada */
-	border: 7px solid #3CB371;
+
+label > input:checked + .img { /* Estilo da imagen quando selecionada */
+    border: 7px solid #3CB371;
 }
+
 .img {
-	border: 7px solid transparent;
-	height: auto; /* 180px */
-	width: auto; /* 190px */
-	/*max-width: 100%;*/
-	border-radius: 20px;
+    border: 7px solid transparent;
+    height: auto; /* 180px */
+    width: auto; /* 190px */
+    /*max-width: 100%;*/
+    border-radius: 20px;
 }
+
 .b_audio {
-	background-image:url("../imagens/play_button_quiz.png");
-	height:45px;
-	width:45px;
-	border-radius:50%; 
-	border:solid white;
+    background-image: url("../imagens/play_button_quiz.png");
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: solid white;
     cursor: pointer;
     background-repeat: no-repeat;
 }
+
 .b_audio:hover {
-	background-image:url("../imagens/play_button_quiz.png");
-	height:41px;
-	width:41px;
-	background-color: none;
-	background-repeat: no-repeat;
+    background-image: url("../imagens/play_button_quiz.png");
+    height: 41px;
+    width: 41px;
+    /*background-color: none;*/
+    background-repeat: no-repeat;
 }
+
 .submit, .reset {
-	cursor: pointer;
-	padding: 4px 5px;
-    
+    cursor: pointer;
+    padding: 4px 5px;
+
 }
+
 .reset {
-	margin-left: 8px;
+    margin-left: 8px;
 }
+
 .resultado {
-	border: 6px solid #3CB371;
-	border-radius: 20px;
-	box-shadow: -10px 10px 10px rgba(60, 179, 113, 0.45);
+    border: 6px solid #3CB371;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px rgba(60, 179, 113, 0.45);
 }
+
 .msg {
     font-size: 15px;
 }
+
 .results {
-	float: right;
-	width: 180px;
-	background: none;
-	background-image: none;
+    float: right;
+    width: 180px;
+    background: none;
+    background-image: none;
 }
+
 .results:hover {
-	/*font-weight: bold;*/
-	font-size: 15px;
+    /*font-weight: bold;*/
+    font-size: 15px;
 }
+
 .popup, .popup th, .popup tr, .popup td {
-	border-collapse: collapse;
-	padding: 10px;
+    border-collapse: collapse;
+    padding: 10px;
 }
+
 .popup th {
-	background: #353535;
-	color: white;
+    background: #353535;
+    color: white;
 }
+
 .popup tr:nth-child(even) {
-	background: #DFDFDF;
+    background: #DFDFDF;
 }
+
 .td, .popup th {
-	text-align: center;
+    text-align: center;
 }
+
 .td:first-child {
-	text-align: left;
+    text-align: left;
 }

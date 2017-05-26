@@ -34,7 +34,7 @@ include_once 'cabecalho.php';
 				require_once 'conexao_form_vocabulario.php';
 				$conexao = new Conexao(DB_SERVER, DB_NAME, DB_USERNAME, DB_PASSWORD);
 
-				$select = $conexao->select('CELLE_VOCABULARIO');
+				$select = $conexao->select('VOCABULARIO_CELLE');
 				if($select){
 					foreach ($select as $vocabulario) {					
 						echo "<td>".$vocabulario['VOC_ID']."</td>";
@@ -42,7 +42,7 @@ include_once 'cabecalho.php';
 						echo "<td>".$vocabulario['VOC_CATEGORIA']."</td>";
 						echo "<td>".$vocabulario['VOC_AUDIO']."</td>";
 						echo "<td>".$vocabulario['VOC_IMAGEM']."</td>";
-						echo "<td><a href='deletar_form_vocabulario.php?voc_id=".$vocabulario['VOC_ID']."' ><img src='../Imagens/deletar.gif'></a></td></tr>\n";
+						echo "<td><a href='deletar_form_vocabulario.php?voc_id=".$vocabulario['VOC_ID']."' ><img src='../imagens/deletar.gif'></a></td></tr>\n";
 					}
 				}
 				?>		

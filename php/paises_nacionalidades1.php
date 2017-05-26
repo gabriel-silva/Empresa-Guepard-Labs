@@ -1,12 +1,8 @@
 <?php
 include_once 'cabecalho.php';
 ?>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
+
     <title>Países e Nacionalidades</title>
-</head>
-<body>
     <section>
         <div id="conteudo">
             <h1 class="t1">Países e Nacionalidades</h1>
@@ -22,47 +18,47 @@ include_once 'cabecalho.php';
                         <td>Escócia</td>
                         <td>Scotland</td>
                         <td>Scot, Scottish</td>
-                    </tr>	
+                    </tr>
                     <tr>
                         <td>Espanha</td>
                         <td>Spain</td>
                         <td>Spaniard, Spanish</td>
-                    </tr>	
+                    </tr>
                     <tr>
                         <td>Estados Unidos da América</td>
                         <td>United States of America</td>
                         <td>American</td>
-                    </tr>	
+                    </tr>
                     <tr>
                         <td>Filipinas</td>
                         <td>Philippines</td>
                         <td>Philippine</td>
-                    </tr>	
+                    </tr>
                     <tr>
                         <td>Finlândia</td>
                         <td>Finland</td>
                         <td>Finn</td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td>França</td>
                         <td>France</td>
                         <td>French</td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td>Gales</td>
                         <td>Wales</td>
                         <td>Welsh</td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td>Grécia</td>
                         <td>Greece</td>
                         <td>Greek</td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td>Holanda</td>
                         <td>Holland</td>
                         <td>Dutch</td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td>Hungria</td>
                         <td>Hungary</td>
@@ -132,8 +128,6 @@ include_once 'cabecalho.php';
             </div>
         </div>
     </section>
-</body>
-</html>
-<?php 
+<?php
 include_once 'rodape.php';
 ?>

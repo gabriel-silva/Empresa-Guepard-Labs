@@ -4,7 +4,7 @@ define('DB_SERVER', 'localhost');
 define('DB_NAME', 'site_celle');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-//define('MYSQL_ASSOC', MYSQL_ASSOC);
+define('MYSQL_ASSOC', 'MYSQLI_ASSOC');
 
 class Conexao {
 
@@ -73,14 +73,14 @@ class Conexao {
 
         $result = $this->executar($sql);
 		$return = false;
-		while ($row = mysqli_fetch_array($result, MYSQL_ASSOC)) {
+		while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 			$return[] = $row;
 		}
 		return $return;
 		
     }
 
-    private function executar($sql) {
+    public function executar($sql) {
 
         $return_result = mysqli_query($this->conn,$sql);
         if ($return_result) {
@@ -90,7 +90,7 @@ class Conexao {
         }
     }
 
-    private function sql_error($sql) {
+    public function sql_error($sql) {
         echo mysqli_error($this->conn) . '<br>';
         die('error: ' . $sql);
     }
