@@ -120,13 +120,21 @@ a:hover {
     width: 10%;
 }
 
-#menu li ul {
+#menu li ul{
 
     position: absolute;
     top: 147px;
     left: -0.8em;
     width: 19%;
     z-index: 5;
+
+}
+
+
+#menu li ul li{
+
+    width: 60%;
+
 
 }
 
@@ -142,6 +150,7 @@ a:hover {
     color: #fff;
     /* border: 1px solid #ccc; */
     border-width: 0 1px 1px;
+
 }
 
 #menu li:hover ul ul, #menu li.over ul ul {
