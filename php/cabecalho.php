@@ -14,7 +14,6 @@ session_start();
     <link rel="stylesheet" type="text/css" href="../css/estilo_quiz.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/style_cadastro.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/kickstart-buttons.css" media="all">
-    <link rel="stylesheet" type="text/css" href="../css/estilo_form_area_admin.css" media="all">
     <script src="../javaScript/javaScript.js"></script>
 </head>
 <body>

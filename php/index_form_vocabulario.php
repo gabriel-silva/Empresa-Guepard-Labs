@@ -3,6 +3,7 @@ include_once 'cabecalho.php';
 ?>
 
     <title>Vocabulário</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo_form_area_admin.css" media="all">
     <section>
         <div id="conteudo">
             <h1 class="t1">Area administrativa</h1>
@@ -28,10 +29,10 @@ include_once 'cabecalho.php';
                     <input type="submit" value="Enviar arquivos" class="submit_are_adm" name="submit"/>
                 </form>
 
-                <table class="table_form" style="border: 1px solid green">
+                <table class="table_form">
                     <caption class="voc_area_adm">VOCABULARIO</caption>
                     <thead>
-                    <tr style="border: 1px solid green">
+                    <tr>
                         <th>ID</th>
                         <th>NOME</th>
                         <th>CATEGORIA</th>

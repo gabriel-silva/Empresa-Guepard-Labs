@@ -46,10 +46,12 @@ p {
 }
 
 .center {
+
     text-align: center;
 }
 
 #conteudo {
+
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
@@ -60,14 +62,17 @@ p {
 }
 
 #conteudo p {
+
     margin-bottom: 0px;
     text-align: justify;
     padding-bottom: 0px;
     line-height: 20px;
     text-indent: 25px;
+
 }
 
 footer {
+
     background: #33A95B;
     height: 60px;
     position: fixed;
@@ -76,6 +81,7 @@ footer {
     width: 100%;
     color: #FFFFFF;
     font-size: 14px;
+
 }
 
 .t1 {
@@ -132,10 +138,7 @@ a:hover {
 
 
 #menu li ul li{
-
     width: 60%;
-
-
 }
 
 #menu a {

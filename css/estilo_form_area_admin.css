@@ -33,11 +33,6 @@
     margin: 20px auto;
 }
 
-table_form, th {
-    background-color: green;
-    color: white;
-}
-
 .control_admin {
     display: block;
     width: 97%;
