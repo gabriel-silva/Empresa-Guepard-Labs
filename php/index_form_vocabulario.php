@@ -19,9 +19,11 @@ include_once 'cabecalho.php';
                     <label for="txtCategoria">Categoria:</label>
                     <input type="text" class="input_area_adm" name="txtCategoria" placeholder="Categoria"/>
 
-                    <label>Adicione um audio </label> <input name="audio" type="file" class="control_admin"/><br>
+                    <label>Adicione um audio </label> <input name="audio" type="file" class="control_admin"
+                                                             accept="audio/mp3"/><br>
 
-                    <label>Adicione uma imagem </label> <input name="imagem" type="file" class="control_admin"/><br>
+                    <label>Adicione uma imagem </label> <input name="imagem" type="file" class="control_admin"
+                                                               accept="image/*"/><br>
 
                     <input type="submit" value="Enviar arquivos" class="submit_are_adm" name="submit"/>
                 </form>
