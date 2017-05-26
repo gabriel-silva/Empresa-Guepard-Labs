@@ -8,7 +8,7 @@ $uploaddir = '/var/www/uploads/';
 ?>
     <title>Envio de Arquivos</title>
     <link rel="stylesheet" href="../css/style.css" type="text/css" media="all"/>
-    <script type="text/javascript">
+    <script type="text/javascript">x
         function validaForm() {
             console.log($('#nome').val());
             erro = false;

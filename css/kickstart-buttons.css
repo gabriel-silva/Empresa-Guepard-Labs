@@ -75,7 +75,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    *padding: 7px 15px;
+    padding: 7px 15px;
 }
 
 /*IE 7 ONLY*/

@@ -1,57 +1,70 @@
-<?php 
+<?php
 include_once 'cabecalho.php';
 ?>
 
-<title>Vocabulário</title>
-<section>
-	<div id="conteudo">
-		<form id="frmCadastro" action="../processadores/processador_form_vocabulario.php" method="post" >
-			<h3> Adicionar vocabulário </h3>
-			<label for="txtPalavra">Palavra:</label>
-			<input type="text" name="txtPalavra" placeholder="Palavra" required/>
-			
-			<label for="txtCategoria">Categoria:</label>
-			<input type="text" name="txtCategoria" placeholder="Categoria"/>
-			
-			<label for="txtAudio">Audio:</label>
-			<input type="text" name="txtAudio"/>
-			
-			<label for="txtImagem">Imagem:</label>
-			<input type="text" name="txtImagem"/> 
-			
-			<input type="submit" value="Salvar" id="btnSalvar" name="submit"/> 
-		</form>
-		
-		<table id="table_form"style="border: 1px solid green">
-			<caption>VOCABULARIO</caption>
-			<thead>
-				<tr style="border: 1px solid green"> 
-					<th>ID</th> <th>NOME</th> <th>CATEGORIA</th> <th>AUDIO</th> <th>IMAGEM</th>
-				</tr>
-			</thead>
-			<tbody id="corpo">
-				<?php
-				require_once 'conexao_form_vocabulario.php';
-				$conexao = new Conexao(DB_SERVER, DB_NAME, DB_USERNAME, DB_PASSWORD);
+    <title>Vocabulário</title>
+    <section>
+        <div id="conteudo">
+            <h1 class="t1">Area administrativa</h1>
+            <hr id="hr-top"></hr>
+            <?php
+            if (isset($_SESSION['usuario'])) {
+                ?>
+                <h3 class="h3_area_adm"> Adicionar vocabulário </h3>
+                <form class="form_area_adm" action="../processadores/processador_form_vocabulario.php" method="post">
 
-				$select = $conexao->select('VOCABULARIO_CELLE');
-				if($select){
-					foreach ($select as $vocabulario) {					
-						echo "<td>".$vocabulario['VOC_ID']."</td>";
-						echo "<td>".$vocabulario['VOC_PALAVRA']."</td>";
-						echo "<td>".$vocabulario['VOC_CATEGORIA']."</td>";
-						echo "<td>".$vocabulario['VOC_AUDIO']."</td>";
-						echo "<td>".$vocabulario['VOC_IMAGEM']."</td>";
-						echo "<td><a href='deletar_form_vocabulario.php?voc_id=".$vocabulario['VOC_ID']."' ><img src='../imagens/deletar.gif'></a></td></tr>\n";
-					}
-				}
-				?>		
-				
-				
-			</tbody>
-		</table>
-	</div>
-</section>
-<?php 
+                    <label for="txtPalavra">Palavra:</label>
+                    <input type="text" class="input_area_adm" name="txtPalavra" placeholder="Palavra" required/>
+
+                    <label for="txtCategoria">Categoria:</label>
+                    <input type="text" class="input_area_adm" name="txtCategoria" placeholder="Categoria"/>
+
+                    <label>Adicione um audio </label> <input name="audio" type="file" class="control_admin"/><br>
+
+                    <label>Adicione uma imagem </label> <input name="imagem" type="file" class="control_admin"/><br>
+
+                    <input type="submit" value="Enviar arquivos" class="submit_are_adm" name="submit"/>
+                </form>
+
+                <table class="table_form" style="border: 1px solid green">
+                    <caption class="voc_area_adm">VOCABULARIO</caption>
+                    <thead>
+                    <tr style="border: 1px solid green">
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>CATEGORIA</th>
+                        <th>AUDIO</th>
+                        <th>IMAGEM</th>
+                    </tr>
+                    </thead>
+                    <tbody id="corpo">
+                    <?php
+                    require_once 'conexao_form_vocabulario.php';
+                    $conexao = new Conexao(DB_SERVER, DB_NAME, DB_USERNAME, DB_PASSWORD);
+
+                    $select = $conexao->select('VOCABULARIO_CELLE');
+                    if ($select) {
+                        foreach ($select as $vocabulario) {
+                            echo "<td>" . $vocabulario['VOC_ID'] . "</td>";
+                            echo "<td>" . $vocabulario['VOC_PALAVRA'] . "</td>";
+                            echo "<td>" . $vocabulario['VOC_CATEGORIA'] . "</td>";
+                            echo "<td>" . $vocabulario['VOC_AUDIO'] . "</td>";
+                            echo "<td>" . $vocabulario['VOC_IMAGEM'] . "</td>";
+                            echo "<td><a href='deletar_form_vocabulario.php?voc_id=" . $vocabulario['VOC_ID'] . "' ><img  src='../imagens/deletar.gif' class=\"img_are_adm\"></a></td></tr>\n";
+                        }
+                    }
+                    ?>
+
+                    </tbody>
+                </table>
+
+                <?php
+            } else {
+                echo "<span style='font-size: 18px; font-family: sans-serif;'>Faça o login para enviar algum arquivo</span>";
+            }
+            ?>
+        </div>
+    </section>
+<?php
 include_once 'rodape.php';
 ?>
