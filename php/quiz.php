@@ -235,6 +235,9 @@ if (!isset($_SESSION['ctxt'])) {
                 if ($escolha === $questoes[$indice][5]) {
                     $indice++;
                     $acertos++;
+
+                    echo '<audio autoplay> <source src="../audios/acerto.mp3"/> </audio>';
+
                     if ($indice === sizeof($questoes)) {
                         $indice = 0;
                         $id = 0;

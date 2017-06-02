@@ -215,6 +215,9 @@ if (!isset($_SESSION['contexto'])) {
                 if ($escolha === $perguntas[$indice][5]) {
                     $indice++;
                     $acertos++;
+
+                    echo '<audio autoplay> <source src="../audios/acerto.mp3"/> </audio>';
+
                     if ($indice === sizeof($perguntas)) {
                         $indice = 0;
 

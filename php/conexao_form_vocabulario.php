@@ -3,7 +3,7 @@
 define('DB_SERVER', 'localhost');
 define('DB_NAME', 'site_celle');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '123456');
 define('MYSQL_ASSOC', 'MYSQLI_ASSOC');
 
 class Conexao {

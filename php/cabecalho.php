@@ -196,7 +196,7 @@ if (isset($_POST['enviar'])) {
 
     $server = "localhost";
     $username = "root";
-    $password = "";
+    $password = "123456";
     $dbname = "site_celle";
 
     $link = mysqli_connect($server, $username, $password, $dbname);    // Faz a conexão com o banco de dados
@@ -212,7 +212,7 @@ if (isset($_POST['enviar'])) {
         $row = mysqli_num_rows($result);        // Recebe o número de linhas retornadas da consulta ao banco
 
         // Checa se o usuário e senha digitados no form de login são iguais aos que estão salvos no banco de dados
-        if ($user == $arr['usuario'] && $pass == $arr['senha']) {
+        if ($user == $arr['usuario']  && $pass == $arr['senha']) {
             // Se verdadeiro, salva o usuário na sessão
             $_SESSION['usuario'] = $user;
         }
