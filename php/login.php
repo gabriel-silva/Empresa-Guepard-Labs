@@ -1,4 +1,5 @@
 <?php
+include "constantes_database.php";
 session_start();
 ?>
     <style type="text/css">
@@ -16,13 +17,7 @@ session_start();
 $user = $_POST['usuario'];
 $pass = md5($_POST['senha']);
 
-$server = "localhost";
-$username = "root";
-$password = "";
-$dbname = "site_celle";
-
-
-$link = mysqli_connect($server, $username, $password, $dbname);
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 $query = "SELECT senha, usuario FROM usuarios WHERE usuario='$user' AND senha='$pass'";
 $result = mysqli_query($link, $query);
 $arr = mysqli_fetch_array($result);

@@ -185,7 +185,7 @@ session_start();
                     Administrativa</a>
                 <ul style="display:none;">
                     <li><a href="index_form_vocabulario.php" class="submenu">Cadastrar Palavra</a></li>
-                    <li><a href="#" class="submenu">Usuários Cadastrados</a></li>
+                    <li><a href="usuarios_cadastrados.php" class="submenu">Usuários Cadastrados</a></li>
                 </ul>
             </li>
 
