@@ -1,4 +1,5 @@
 <?php
+include 'constantes_database.php';
 include_once 'cabecalho.php';
 ?>
 
@@ -21,10 +22,10 @@ include_once 'cabecalho.php';
                     <input type="text" class="input_area_adm" name="txtCategoria" placeholder="Categoria"/>
 
                     <label>Adicione um audio </label> <input name="audio" type="file" class="control_admin"
-                                                             accept="audio/mp3"/><br>
+                                                             required accept="audio/mp3"/><br>
 
                     <label>Adicione uma imagem </label> <input name="imagem" type="file" class="control_admin"
-                                                               accept="image/*"/><br>
+                                                               required accept="image/*"/><br>
 
                     <input type="submit" value="Enviar arquivos" class="submit_are_adm" name="submit"/>
                 </form>

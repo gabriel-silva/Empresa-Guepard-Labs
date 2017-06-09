@@ -1,10 +1,5 @@
 <?php
-
-define('DB_SERVER', 'localhost');
-define('DB_NAME', 'site_celle');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-
+include_once 'constantes_database.php';
 ob_start();
 session_start();
 ?>
@@ -200,12 +195,7 @@ if (isset($_POST['enviar'])) {
 
     // Salva os dados do servidor, usuario, senha e nome do banco de dados para fazer a conexão
 
-    $server = "localhost";
-    $username = "root";
-    $password = "123456";
-    $dbname = "site_celle";
-
-    $link = mysqli_connect($server, $username, $password, $dbname);    // Faz a conexão com o banco de dados
+    $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);    // Faz a conexão com o banco de dados
 
     // consulta para puxar do banco usuario e senha que sejam iguais aos digitados no form de login
 

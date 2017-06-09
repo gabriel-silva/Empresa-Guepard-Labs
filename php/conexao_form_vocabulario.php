@@ -1,6 +1,6 @@
 <?php
 
-include_once 'cabecalho.php'
+include_once 'constantes_database.php';
 
 // define('MYSQL_ASSOC', 'MYSQLI_ASSOC');
 
