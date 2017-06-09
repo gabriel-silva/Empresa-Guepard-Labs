@@ -169,6 +169,7 @@ session_start();
                     <li><a href="termostecnicosdelogistica.php" class="submenu" id="expressoes">Termos Logistica</a>
                     </li>
                     <li><a href="mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
+                    <li><a href="livro.php" class="submenu" id="expressoes">Livros</a></li>
                 </ul>
             </li>
             <li><a href="#" id="#"><i class="fa fa-book fa-lg" aria-hidden="true"></i> Atividades</a>
