@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47d807d-e3af-44ab-b6c5-670c3cbd7a47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/constantes_database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/cabecalho.php" afterPath="$PROJECT_DIR$/php/cabecalho.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/conexao_form_vocabulario.php" afterPath="$PROJECT_DIR$/php/conexao_form_vocabulario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/deletar_form_vocabulario.php" afterPath="$PROJECT_DIR$/php/deletar_form_vocabulario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/index_form_vocabulario.php" afterPath="$PROJECT_DIR$/php/index_form_vocabulario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processadores/processador_form_vocabulario.php" afterPath="$PROJECT_DIR$/processadores/processador_form_vocabulario.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,35 +38,15 @@
       <file leaf-file-name="cabecalho.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/cabecalho.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="499">
+              <caret line="182" column="86" lean-forward="false" selection-start-line="182" selection-start-column="86" selection-end-line="182" selection-end-column="86" />
               <folding>
-                <marker date="1496985051194" expanded="true" signature="8702:8777" ph="SELECT senha... usuarios" />
-                <marker date="1496985051194" expanded="true" signature="9784:9805" ph="..." />
-                <marker date="1496985051194" expanded="true" signature="9784:9860" ph="..." />
+                <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#9;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1496985392631" expanded="true" signature="8941:9016" ph="SELECT senha... usuarios" />
+                <marker date="1496985392631" expanded="true" signature="10022:10043" ph="..." />
+                <marker date="1496985392631" expanded="true" signature="10022:10098" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constantes_database.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/constantes_database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deletar_form_vocabulario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/deletar_form_vocabulario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -79,7 +54,7 @@
       <file leaf-file-name="index_form_vocabulario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/index_form_vocabulario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="-756">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <marker date="1496985051154" expanded="true" signature="3092:3133" ph="..." />
@@ -88,27 +63,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="processador_form_vocabulario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processadores/processador_form_vocabulario.php">
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="248">
+              <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexao_form_vocabulario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/conexao_form_vocabulario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding>
-                <marker date="1496985051020" expanded="true" signature="870:920" ph="INSERT INTO ${$tabela}... " />
-                <marker date="1496985051020" expanded="true" signature="1539:1591" ph="UPDATE ${$ta... " />
-                <marker date="1496985051020" expanded="true" signature="1712:1758" ph="DELETE FROM " />
-                <marker date="1496985051020" expanded="true" signature="2102:2123" ph="SELECT ${$co... ${$tabela}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,15 +123,15 @@
         <option value="$PROJECT_DIR$/css/estilo_quiz.css" />
         <option value="$PROJECT_DIR$/database/site_celle_21-04-16.sql" />
         <option value="$PROJECT_DIR$/css/estilo_form_area_admin.css" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/php/quiz.php" />
         <option value="$PROJECT_DIR$/php/quiz_2.php" />
         <option value="$PROJECT_DIR$/processadores/processador_form_vocabulario.php" />
         <option value="$PROJECT_DIR$/php/deletar_form_vocabulario.php" />
         <option value="$PROJECT_DIR$/php/conexao_form_vocabulario.php" />
         <option value="$PROJECT_DIR$/php/index_form_vocabulario.php" />
-        <option value="$PROJECT_DIR$/php/cabecalho.php" />
         <option value="$PROJECT_DIR$/php/conexao_database.php" />
+        <option value="$PROJECT_DIR$/php/cabecalho.php" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
       </list>
     </option>
   </component>
@@ -446,7 +406,7 @@
       <workItem from="1496371176191" duration="524000" />
       <workItem from="1496371806952" duration="23000" />
       <workItem from="1496371888713" duration="32000" />
-      <workItem from="1496983371103" duration="1659000" />
+      <workItem from="1496983371103" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="alterações nos submenus">
       <created>1495808334511</created>
@@ -480,7 +440,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38756000" />
+    <option name="totallyTimeSpent" value="40565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -627,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/rodape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/sites_relacionados.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -759,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_cadastro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/arquivos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -781,31 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo_quiz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/estilo_form_area_admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="238" column="30" lean-forward="true" selection-start-line="238" selection-start-column="30" selection-end-line="238" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -894,33 +819,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/index_form_vocabulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1496985051154" expanded="true" signature="3092:3133" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processadores/processador_form_vocabulario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <marker date="1496985051194" expanded="true" signature="8702:8777" ph="SELECT senha... usuarios" />
-            <marker date="1496985051194" expanded="true" signature="9784:9805" ph="..." />
-            <marker date="1496985051194" expanded="true" signature="9784:9860" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,6 +834,70 @@
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo_quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_cadastro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/rodape.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index_form_vocabulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1496985051154" expanded="true" signature="3092:3133" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/cabecalho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="182" column="86" lean-forward="false" selection-start-line="182" selection-start-column="86" selection-end-line="182" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#9;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1496985392631" expanded="true" signature="8941:9016" ph="SELECT senha... usuarios" />
+            <marker date="1496985392631" expanded="true" signature="10022:10043" ph="..." />
+            <marker date="1496985392631" expanded="true" signature="10022:10098" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

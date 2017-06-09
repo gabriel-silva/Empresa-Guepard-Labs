@@ -5,6 +5,8 @@
     font-size: 1em;
     line-height: 1.4em;
     font-family: 'SegoeUI', Arial, Helvetica !important;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 p, a {
@@ -74,7 +76,8 @@ p {
 footer {
 
     background: #33A95B;
-    height: 60px;
+    min-height: 5%;
+    height: 10%;
     position: fixed;
     bottom: 0;
     text-align: center;
@@ -126,7 +129,7 @@ a:hover {
     width: 10%;
 }
 
-#menu li ul{
+#menu li ul {
 
     position: absolute;
     top: 147px;
@@ -136,9 +139,9 @@ a:hover {
 
 }
 
-
-#menu li ul li{
-    width: 60%;
+#menu li ul li {
+    width: 11.25em;
+    text-align: left;
 }
 
 #menu a {

@@ -177,8 +177,13 @@ session_start();
             <li><a href="arquivos.php" class="submenu" id="arquivos.php">Envio</a></li>
             <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php">Extra</a></li>
             <li><a href="contatos.php" class="submenu" id="CONTATOS.php">Contato</a></li>
-            <li><a href="index_form_vocabulario.php" class="submenu" id="index_form_vocabulario.php">Área
-                    Administrativa</a></li>
+            <li><a href="#" class="submenu" id="index_form_vocabulario.php">Área
+                    Administrativa</a>
+                <ul style="display:none;">
+                    <li><a href="index_form_vocabulario.php" class="submenu">Cadastrar Palavra</a></li>
+                    <li><a href="#" class="submenu">Usuários Cadastrados</a></li>
+                </ul>
+            </li>
 
         </ul>
         <br><br>
@@ -208,7 +213,7 @@ if (isset($_POST['enviar'])) {
         $row = mysqli_num_rows($result);        // Recebe o número de linhas retornadas da consulta ao banco
 
         // Checa se o usuário e senha digitados no form de login são iguais aos que estão salvos no banco de dados
-        if ($user == $arr['usuario']  && $pass == $arr['senha']) {
+        if ($user == $arr['usuario'] && $pass == $arr['senha']) {
             // Se verdadeiro, salva o usuário na sessão
             $_SESSION['usuario'] = $user;
         }
