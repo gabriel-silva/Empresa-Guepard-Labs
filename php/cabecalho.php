@@ -16,6 +16,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="../css/style_cadastro.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/kickstart-buttons.css" media="all">
     <script src="../javaScript/javaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.css" media="all">
 </head>
 <body>
 <header>
@@ -143,17 +144,19 @@ session_start();
     </div>
     <nav id="menu">
         <ul class="menu">
-            <li><a href="home.php" class="submenu" id="home.php">Home</a></li>
-            <li><a href="sobre.php" class="submenu" id="sobre.php">Sobre</a></li>
-            <li><a href="noticias.php" class="submenu" id="noticias.php">Notícias</a></li>
-            <li><a href="#" id="#">Mídia</a>
+            <li>
+                <a href="home.php" class="submenu" id="home.php"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a>
+            </li>
+            <li><a href="sobre.php" class="submenu" id="sobre.php"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i> Sobre</a></li>
+            <li><a href="noticias.php" class="submenu" id="noticias.php"><i class="fa fa-newspaper-o fa-lg" aria-hidden="true"></i> Notícias</a></li>
+            <li><a href="#" id="#"><i class="fa fa-music fa-lg" aria-hidden="true"></i> Mídia</a>
                 <ul style="display:none;">
                     <li><a href="videos.php" class="submenu" class="videos">Vídeos</a></li>
                     <li><a href="audios.php" class="submenu" class="audios">Áudios</a></li>
                     <li><a href="imagens_audios.php" class="submenu" class="imagens e audios">Listening</a></li>
                 </ul>
             </li>
-            <li><a href="#" id="#">Conteúdos</a>
+            <li><a href="#" id="#"><i class="fa fa-archive fa-lg" aria-hidden="true"></i> Conteúdos</a>
                 <ul style="display:none;">
                     <li><a href="paises_nacionalidades.php" class="submenu" id="paises_nacionalidades">Países e
                             Nacionalidades</a></li>
@@ -168,16 +171,16 @@ session_start();
                     <li><a href="mapa.php" class="submenu" id="expressoes">Países de Lingua Inglesa</a></li>
                 </ul>
             </li>
-            <li><a href="#" id="#">Atividades</a>
+            <li><a href="#" id="#"><i class="fa fa-book fa-lg" aria-hidden="true"></i> Atividades</a>
                 <ul style="display:none;">
                     <li><a href="quiz.php" class="submenu">Quiz 1</a></li>
                     <li><a href="quiz_2.php" class="submenu">Quiz 2</a></li>
                 </ul>
             </li>
-            <li><a href="arquivos.php" class="submenu" id="arquivos.php">Envio</a></li>
-            <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php">Extra</a></li>
-            <li><a href="contatos.php" class="submenu" id="CONTATOS.php">Contato</a></li>
-            <li><a href="#" class="submenu" id="index_form_vocabulario.php">Área
+            <li><a href="arquivos.php" class="submenu" id="arquivos.php"><i class="fa fa-file fa-lg" aria-hidden="true"></i> Envio</a></li>
+            <li><a href="sites_relacionados.php" class="submenu" id="sites_relacionados.php"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i> Extra</a></li>
+            <li><a href="contatos.php" class="submenu" id="CONTATOS.php"><i class="fa fa-address-card fa-lg" aria-hidden="true"></i> Contato</a></li>
+            <li><a href="#" class="submenu" id="index_form_vocabulario.php"><i class="fa fa-user-o fa-lg" aria-hidden="true"></i> Área
                     Administrativa</a>
                 <ul style="display:none;">
                     <li><a href="index_form_vocabulario.php" class="submenu">Cadastrar Palavra</a></li>

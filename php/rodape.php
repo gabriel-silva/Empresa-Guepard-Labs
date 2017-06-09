@@ -1,10 +1,10 @@
 <footer>
     <br>
-    Avenida Alfredo Bandeira de Melo, BR 101 norte - km 44
+    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Avenida Alfredo Bandeira de Melo, BR 101 Norte - KM 44
     Centro, Igarassu - PE, Cep: 53610-000<br>
     Fale com o CELLE:
-    celle@igarassu.ifpe.edu.br
-    (81) 3334 - 3507
+    <i class="fa fa-envelope " aria-hidden="true"></i> celle@igarassu.ifpe.edu.br &nbsp;
+    <i class="fa fa-phone " aria-hidden="true"></i> (81) 3334 - 3507
 </footer>
 </body>
 </html>

@@ -136,12 +136,15 @@ a:hover {
     left: -0.8em;
     width: 19%;
     z-index: 5;
-
 }
 
 #menu li ul li {
     width: 11.25em;
     text-align: left;
+}
+
+#menu li ul li a{
+    height: auto;
 }
 
 #menu a {
