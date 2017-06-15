@@ -1,6 +1,8 @@
 <?php
 include 'constantes_database.php';
 include_once 'cabecalho.php';
+
+
 ?>
 
     <title>Vocabulário</title>
@@ -8,12 +10,14 @@ include_once 'cabecalho.php';
     <section>
         <div id="conteudo">
             <h1 class="t1">Area administrativa</h1>
+            <script > function alerta(){ alert("Deletado!!")}</script>
             <hr id="hr-top"></hr>
             <?php
             if (isset($_SESSION['usuario'])) {
+                
                 ?>
                 <h3 class="h3_area_adm"> Adicionar vocabulário </h3>
-                <form class="form_area_adm" action="../processadores/processador_form_vocabulario.php" method="post">
+                <form class="form_area_adm" action="../processadores/processador_form_vocabulario.php" method="post" enctype="multi/form-data">
 
                     <label for="txtPalavra">Palavra:</label>
                     <input type="text" class="input_area_adm" name="txtPalavra" placeholder="Palavra" required/>
@@ -54,11 +58,11 @@ include_once 'cabecalho.php';
                             echo "<td>" . $vocabulario['VOC_CATEGORIA'] . "</td>";
                             echo "<td>" . $vocabulario['VOC_AUDIO'] . "</td>";
                             echo "<td>" . $vocabulario['VOC_IMAGEM'] . "</td>";
-                            echo "<td><a href='deletar_form_vocabulario.php?voc_id=" . $vocabulario['VOC_ID'] . "' ><img  src='../imagens/deletar.gif' class=\"img_are_adm\"></a></td></tr>\n";
+                            echo "<td><a onclick='\nalerta()\n' href='deletar_form_vocabulario.php?voc_id=" . $vocabulario['VOC_ID'] . "' ><img  src='../imagens/deletar.gif' class=\"img_are_adm\" ></a></td></tr>\n";
                         }
                     }
-                    ?>
 
+                    ?>
                     </tbody>
                 </table>
 
