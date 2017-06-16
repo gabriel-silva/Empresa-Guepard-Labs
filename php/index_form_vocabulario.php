@@ -43,9 +43,9 @@ move_uploaded_file($_FILES['audio']['tmp_name'], $dirAudio.$newAudio);
 
                     <label for="txtCategoria">Categoria:</label>
                     <input type="text" class="input_area_adm" name="txtCategoria" placeholder="Categoria"/>
-<!-- 
+
                     <label>Adicione um audio </label> <input name="audio" type="file" class="control_admin"
-                                                             required accept="audio/mp3"/><br> -->
+                                                             required accept="audio/mp3"/><br>
 
                     <label>Adicione uma imagem </label> <input name="imagem" type="file" class="control_admin"
                                                                required accept="image/*"/><br>
