@@ -173,14 +173,6 @@ include_once 'cabecalho.php';
                     </td>
 
                 </tr>
-
-                <tr>
-                    <td>  </td>
-                    <td>
-                    </td>
-
-                </tr>
-
             </table>
             <br/>
             <span><small>  </small></span>
