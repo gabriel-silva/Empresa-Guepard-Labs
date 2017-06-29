@@ -2,8 +2,6 @@
 include 'constantes_database.php';
 include_once 'cabecalho.php';
  
- $msg = false;
-
 if(isset($_FILES['imagem']) && isset($_FILES['audio'])){
 
     $extImagem = strtolower(substr($_FILES['imagem']['name'], -4));
@@ -13,6 +11,7 @@ if(isset($_FILES['imagem']) && isset($_FILES['audio'])){
     $dirImagem = "../imagens/";
     $dirAudio = "../audios/";
 
+var_dump(is_file($_FILES['imagem']['tmp_name']));
  move_uploaded_file($_FILES['imagem']['tmp_name'], $dirImagem.$newImagem);
     $imagem = "INSERT INTO VOCABULARIO_CELLE(VOC_IMAGEM) VALUES('$extImagem')";
 
@@ -35,7 +34,6 @@ move_uploaded_file($_FILES['audio']['tmp_name'], $dirAudio.$newAudio);
 
                 ?>
                 <h3 class="h3_area_adm"> Adicionar vocabulário </h3>
-                <?php if($msg != false){  echo "<p> $msg </p>"; } ?>
                 <form class="form_area_adm" action="../processadores/processador_form_vocabulario.php" method="post" enctype="multi/form-data">
 
                     <label for="txtPalavra">Palavra:</label>
