@@ -2,7 +2,9 @@
 include 'constantes_database.php';
 include_once 'cabecalho.php';
  
-if(isset($_FILES['imagem']) && isset($_FILES['audio'])){
+if(isset($_FILES['imagem'])){
+
+
 
     $extImagem = strtolower(substr($_FILES['imagem']['name'], -4));
     $extAudio = strtolower(substr($_FILES['audio']['name'], -4));
@@ -11,12 +13,13 @@ if(isset($_FILES['imagem']) && isset($_FILES['audio'])){
     $dirImagem = "../imagens/";
     $dirAudio = "../audios/";
 
-var_dump(is_file($_FILES['imagem']['tmp_name']));
  move_uploaded_file($_FILES['imagem']['tmp_name'], $dirImagem.$newImagem);
     $imagem = "INSERT INTO VOCABULARIO_CELLE(VOC_IMAGEM) VALUES('$extImagem')";
 
 move_uploaded_file($_FILES['audio']['tmp_name'], $dirAudio.$newAudio);
     $audio = "INSERT INTO VOCABULARIO_CELLE(VOC_AUDIO) VALUES('extAudio')";
+
+
  }
 
 

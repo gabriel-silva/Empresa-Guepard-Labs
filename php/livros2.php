@@ -55,6 +55,46 @@ include_once 'cabecalho.php';
                         <td>Harold Frederic</td>
                         <td>English</td>
                     </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/2701/2701-h/2701-h.htm"></a>Moby Dick or The Whale</td>
+                        <td>Herman Melville</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/16328/16328-h/16328-h.htm"></a>Beowulf</td>
+                        <td>J. Lesslie Hall</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/2591/2591-h/2591-h.htm"></a>Fairy Tales</td>
+                        <td>The Brothers Grimm</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/244/244-h/244-h.htm"></a>Study in Scarlet</td>
+                        <td>Sir Arthur Conan Doyle</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/11/11-h/11-h.htm"></a> Alice's Adventures in Wonderland</td>
+                        <td> Lewis Carroll</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/36/36-h/36-h.htm"></a>The War of the Worlds</td>
+                        <td>H. G. Wells</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://www.gutenberg.org/files/1257/1257-h/1257-h.htm"></a>The three Musketeers</td>
+                        <td>Alexander Dumas</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                    <td><a href="http://www.gutenberg.org/files/55/55-h/55-h.htm"></a>The Wonderfull Wizard of Oz</td>
+                    <td>L. Frank Baum</td>
+                    <td>English</td>
+                    </tr>
                 </table>
             </div>
     </div>
