@@ -4,8 +4,8 @@ include_once 'cabecalho.php';
 <title>Livros de Ingles </title>
 <section>
     <div id="conteudo">
-        <h1 class="t1"> Livros de Ingles </h1>
-        <hr id="hr-top"> </hr>
+        <h1 class="t1"> Livros de Inglês </h1>
+        <hr id="hr-top" />
         <div class="expressoes">
             <table>
                 <tr>
