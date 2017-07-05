@@ -120,7 +120,7 @@ a:hover {
 
     list-style: none;
     width: 100%;
-    padding: 0px;
+    padding: 0;
 
 }
 
@@ -139,7 +139,8 @@ a:hover {
 }
 
 #menu li ul li {
-    width: 11.25em;
+    min-width: 11.25em;
+    max-width: 200px;
     text-align: left;
 }
 
