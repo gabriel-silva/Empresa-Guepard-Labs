@@ -1,104 +1,186 @@
 <?php
 include_once 'cabecalho.php';
 ?>
-
-<title>Livros</title>
-    <section>
+<title>Livros de Ingles </title>
+<section>
     <div id="conteudo">
-            <h1 class="t1"> Livros de Ingles </h1>
-            <hr id="hr-top"></hr>
-            <div class="expressoes">
-                <table>
-                    <tr>
-                        <th>Title</th>
-                        <th>Author</th>
-                        <th>Language</th>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54994/54994-h/54994-h.htm" target="_blank"> Squib and His Friends </a></td>
-                        <td>Evelyn Everett-Green</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54929/54929-h/54929-h.htm" target="_blank"> Christopher Columbus - His life and His Work</a></td>
-                        <td>Charles Kendall Adams</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54990/54990-h/54990-h.htm" target="_blank">The Brown Brethren</a></td>
-                        <td>Patrick MacGill</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54991/54991-h/54991-h.htm" target="_blank"> Poems With Introduction and Notes</a></td>
-                        <td>Alexander Pushkin</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href= "https://www.gutenberg.org/files/54992/54992-h/54992-h.htm" target="_blank"> Prolegomena to the Study of Hegel's Philosophy
-                     and Especially of his Logic</a></td>
-                         <td>Willian Wallace G.W.F. Hegel</td>
-                         <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54981/54981-h/54981-h.htm" target="_blank">American Missionary, Vol. XXXIV, No. 5, May 1880</a></td>
-                        <td>Various</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54983/54983-h/54983-h.htm" target="_blank">Les Aventures d'une fourmi rouge et les mémoires d'un pierrot</a></td>
-                        <td>Henri de la Blanchéres</td>
-                        <td>French</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.gutenberg.org/files/54989/54989-h/54989-h.htm" target="_blank">The Young Emperor, Willian II of Germany A Study in Character Development on a Throne</a></td>
-                        <td>Harold Frederic</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/2701/2701-h/2701-h.htm"></a>Moby Dick or The Whale</td>
-                        <td>Herman Melville</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/16328/16328-h/16328-h.htm"></a>Beowulf</td>
-                        <td>J. Lesslie Hall</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/2591/2591-h/2591-h.htm"></a>Fairy Tales</td>
-                        <td>The Brothers Grimm</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/244/244-h/244-h.htm"></a>Study in Scarlet</td>
-                        <td>Sir Arthur Conan Doyle</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/11/11-h/11-h.htm"></a> Alice's Adventures in Wonderland</td>
-                        <td> Lewis Carroll</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/36/36-h/36-h.htm"></a>The War of the Worlds</td>
-                        <td>H. G. Wells</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://www.gutenberg.org/files/1257/1257-h/1257-h.htm"></a>The three Musketeers</td>
-                        <td>Alexander Dumas</td>
-                        <td>English</td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://www.gutenberg.org/files/55/55-h/55-h.htm"></a>The Wonderfull Wizard of Oz</td>
-                    <td>L. Frank Baum</td>
-                    <td>English</td>
-                    </tr>
-                </table>
-            </div>
+        <h1 class="t1"> Livros de Ingles </h1>
+        <hr id="hr-top"> </hr>
+        <div class="expressoes">
+            <table>
+                <tr>
+                    <th>Livros</th>
+                    <th>Disponíveis na Biblioteca do IFPE (Campus Igarassu)</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Gramática Prática</td>
+                    <td>Autor: Nelson Torres
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>The ESL Miscellany (the new 21 century edition)</td>
+                    <td> Autor: Clark Raymend C.
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> English Vocabulary (for Beginning ESL Learners)</td>
+                    <td> Autor: Jean Yates
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td> Interchange (Fourthn edition)</td>
+                    <td> Autor: Jack C. Rechards
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Longman</td>
+                    <td> Autor: Amorim Jose
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>O inglês no Transporte e na Logistica</td>
+                    <td>Autor: Jean-Claude Bertin
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Inglês Instrumental</td>
+                    <td>Autor: Rosângela Munhoz
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Time Zones combos Split 3a</td>
+                    <td>Autor: Jennifer Wilkim
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Inside Out</td>
+                    <td>Autor: Sue kay, Vaughan Jones
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td> On Stage 1</td>
+                    <td>Autor:Amadeu Marques
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td> On Stage 2</td>
+                    <td>Autor:Amadeu Marques
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td> On Stage 3</td>
+                    <td>Autor:Amadeu Marques
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>A visit To The City</td>
+                    <td>Autor: Rose, Mary
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>ALL Star ecce practige tests</td>
+                    <td>Autor: Peter Kipling
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td> Really Learn 100 More (Phrasal verbs)</td>
+                    <td>Autor: Dilys Parkinson
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td> Easy english (Vocabulary Games)</td>
+                    <td>Autor: Schinke LLiano, Lind
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> Jojo's Story</td>
+                    <td>Autor: Moses Antoinette
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td> 201 Ready-To-Use Word Games</td>
+                    <td>Autor: Jack Umstatter
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Basic Grammar in use</td>
+                    <td> Autor: With William R. Smalzer
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> 101 Americam English idioms</td>
+                    <td> Autor: Collis Harry
+                    </td>
+
+                </tr>
+            </table>
+            <br/>
+            <span><small>  </small></span>
+            <a class="next_prev" href=""></a>
+            <br/>
+        </div>
     </div>
-    </section>
+</section>
 <?php
 include_once 'rodape.php';
 ?>
