@@ -57,8 +57,8 @@ if (isset($_FILES['imagem'])) {
                         <th>ID</th>
                         <th>NOME</th>
                         <th>CATEGORIA</th>
-                        <th>AUDIO</th>
-                        <th>IMAGEM</th>
+                        <!-- <th>AUDIO</th> -->
+                        <!-- <th>IMAGEM</th> -->
                     </tr>
                     </thead>
                     <tbody id="corpo">
@@ -72,8 +72,8 @@ if (isset($_FILES['imagem'])) {
                             echo "<td>" . $vocabulario['VOC_ID'] . "</td>";
                             echo "<td>" . $vocabulario['VOC_PALAVRA'] . "</td>";
                             echo "<td>" . $vocabulario['VOC_CATEGORIA'] . "</td>";
-                            echo "<td>" . $vocabulario['VOC_AUDIO'] . "</td>";
-                            echo "<td>" . $vocabulario['VOC_IMAGEM'] . "</td>";
+                            // echo "<td>" . $vocabulario['VOC_AUDIO'] . "</td>";
+                            // echo "<td>" . $vocabulario['VOC_IMAGEM'] . "</td>";
                             echo "<td><a class='delete' href='deletar_form_vocabulario.php?voc_id=" . $vocabulario['VOC_ID'] . "' ><img  src='../imagens/deletar.gif' class=\"img_are_adm\" ></a></td></tr>\n";
                         }
                     }
