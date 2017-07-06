@@ -5,7 +5,7 @@ include_once 'cabecalho.php';
 <title>Livros</title>
     <section>
     <div id="conteudo">
-            <h1 class="t1"> Livros de Ingles </h1>
+            <h1 class="t1"> Livros em Ingles </h1>
             <hr id="hr-top"></hr>
             <div class="expressoes">
                 <table>
@@ -56,42 +56,42 @@ include_once 'cabecalho.php';
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/2701/2701-h/2701-h.htm"></a>Moby Dick or The Whale</td>
+                        <td><a href="http://www.gutenberg.org/files/2701/2701-h/2701-h.htm" target="_blank">Moby Dick or The Whale</a></td>
                         <td>Herman Melville</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/16328/16328-h/16328-h.htm"></a>Beowulf</td>
+                        <td><a href="http://www.gutenberg.org/files/16328/16328-h/16328-h.htm" target="_blank">Beowulf</a></td>
                         <td>J. Lesslie Hall</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/2591/2591-h/2591-h.htm"></a>Fairy Tales</td>
+                        <td><a href="http://www.gutenberg.org/files/2591/2591-h/2591-h.htm" target="_blank">Fairy Tales</a></td>
                         <td>The Brothers Grimm</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/244/244-h/244-h.htm"></a>Study in Scarlet</td>
+                        <td><a href="http://www.gutenberg.org/files/244/244-h/244-h.htm" target="_blank">Study in Scarlet</a></td>
                         <td>Sir Arthur Conan Doyle</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/11/11-h/11-h.htm"></a> Alice's Adventures in Wonderland</td>
+                        <td><a href="http://www.gutenberg.org/files/11/11-h/11-h.htm" target="_blank">Alice's Adventures on Wonderland</a></td>
                         <td> Lewis Carroll</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/36/36-h/36-h.htm"></a>The War of the Worlds</td>
+                        <td><a href="http://www.gutenberg.org/files/36/36-h/36-h.htm" target="_blank">The War of the Worlds</a></td>
                         <td>H. G. Wells</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.gutenberg.org/files/1257/1257-h/1257-h.htm"></a>The three Musketeers</td>
+                        <td><a href="http://www.gutenberg.org/files/1257/1257-h/1257-h.htm" target="_blank">The three Musketeers</a></td>
                         <td>Alexander Dumas</td>
                         <td>English</td>
                     </tr>
                     <tr>
-                    <td><a href="http://www.gutenberg.org/files/55/55-h/55-h.htm"></a>The Wonderfull Wizard of Oz</td>
+                    <td><a href="http://www.gutenberg.org/files/55/55-h/55-h.htm" target="_blank">The Wonderfull Wizard of Oz</a></td>
                     <td>L. Frank Baum</td>
                     <td>English</td>
                     </tr>
