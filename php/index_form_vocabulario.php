@@ -2,23 +2,6 @@
 include 'constantes_database.php';
 include_once 'cabecalho.php';
 
-if (isset($_FILES['imagem'])) {
-
-    $extImagem = strtolower(substr($_FILES['imagem']['name'], -4));
-    $extAudio = strtolower(substr($_FILES['audio']['name'], -4));
-    $newImagem = md5(time()) . $extImagem;
-    $newAudio = md5(time()) . $extAudio;
-    $dirImagem = "../imagens/";
-    $dirAudio = "../audios/";
-
-    move_uploaded_file($_FILES['imagem']['tmp_name'], $dirImagem . $newImagem);
-    $imagem = "INSERT INTO VOCABULARIO_CELLE(VOC_IMAGEM) VALUES ('$extImagem')";
-
-    move_uploaded_file($_FILES['audio']['tmp_name'], $dirAudio . $newAudio);
-    $audio = "INSERT INTO VOCABULARIO_CELLE(VOC_AUDIO) VALUES('extAudio')";
-
-}
-
 ?>
 
     <title>Vocabulário</title>
